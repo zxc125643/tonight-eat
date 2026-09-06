@@ -93,7 +93,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "清蒸鲈鱼",
+      "豆角炒肉",
+      "蒜蓉油麦菜",
+      "热天最合适",
+      "鱼鲜",
+      "豆角下饭",
+      "油麦菜解腻"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "niunan",
@@ -183,7 +194,16 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "番茄牛腩",
+      "蒜蓉西兰花",
+      "拍黄瓜",
+      "汤汁拌饭很香",
+      "西兰花和黄瓜把油切掉"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "paigu",
@@ -271,7 +291,16 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "红烧排骨",
+      "上汤娃娃菜",
+      "凉拌木耳",
+      "周末想吃得像样一点",
+      "排骨是主角"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "gongbao",
@@ -362,7 +391,17 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "宫保鸡丁",
+      "清炒时蔬",
+      "番茄蛋汤",
+      "半小时能上桌",
+      "鸡丁香辣",
+      "汤开胃"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "yuxiang",
@@ -453,7 +492,16 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "鱼香茄子",
+      "青椒肉丝",
+      "蒜蓉生菜",
+      "茄子和肉丝都很下饭",
+      "生菜清口"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "tangcu",
@@ -541,7 +589,17 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "糖醋里脊",
+      "干煸四季豆",
+      "紫菜蛋花汤",
+      "酸甜解馋",
+      "四季豆很香",
+      "汤很清"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "huaji",
@@ -631,7 +689,17 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "香菇滑鸡",
+      "蒜蓉空心菜",
+      "凉拌豆腐",
+      "少油",
+      "好消化",
+      "夏天晚上很舒服"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "feiniu",
@@ -720,7 +788,17 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "酸汤肥牛",
+      "手撕包菜",
+      "皮蛋豆腐",
+      "最快的一套",
+      "酸香开胃",
+      "不怎么油"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "hubei",
@@ -812,7 +890,17 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "湖北红烧肉",
+      "清炒时蔬",
+      "番茄蛋汤",
+      "湖北家常红烧肉",
+      "肥而不腻",
+      "配时蔬和蛋汤很均衡"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "maoxue",
@@ -906,7 +994,16 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "毛血旺",
+      "蒜蓉西兰花",
+      "凉拌木耳",
+      "四川毛血旺麻辣过瘾",
+      "西兰花清爽解腻"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "yibing",
@@ -1004,7 +1101,17 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "徽州一品锅",
+      "清炒时蔬",
+      "番茄蛋汤",
+      "徽州名菜",
+      "一锅炖出满满烟火气",
+      "配时蔬和蛋汤很均衡"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "jijiu",
@@ -1100,7 +1207,17 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "黄焖鸡",
+      "蒜蓉油麦菜",
+      "紫菜蛋花汤",
+      "经典下饭菜",
+      "汤汁拌饭特别香",
+      "配青菜和蛋汤很均衡"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "laomian",
@@ -1196,7 +1313,17 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "梅菜扣肉",
+      "蒜蓉生菜",
+      "冬瓜汤",
+      "经典硬菜",
+      "肥而不腻",
+      "配清爽蔬菜和冬瓜汤很解腻"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "huiguo",
@@ -1300,7 +1427,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "回锅肉",
+      "蒜蓉西兰花",
+      "紫菜蛋花汤",
+      "王刚版回锅肉",
+      "肉片灯盏窝配蒜苗",
+      "酱香下饭",
+      "西兰花解腻"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "shuizhu",
@@ -1399,7 +1537,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "水煮肉片",
+      "清炒时蔬",
+      "番茄蛋汤",
+      "王刚版水煮肉片",
+      "麻辣鲜香",
+      "肉片滑嫩",
+      "配时蔬和蛋汤很均衡"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "congbao",
@@ -1494,7 +1643,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "葱爆牛肉",
+      "蒜蓉油麦菜",
+      "冬瓜汤",
+      "厨师长版葱爆牛肉",
+      "葱香浓郁",
+      "牛肉嫩滑",
+      "配青菜和冬瓜汤很清爽"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "ganguo",
@@ -1592,7 +1752,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "干锅鸡",
+      "蒜蓉空心菜",
+      "紫菜蛋花汤",
+      "厨师长版干锅鸡",
+      "肉香四溢",
+      "外焦里嫩",
+      "配青菜和蛋汤很解腻"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liurou",
@@ -1687,7 +1858,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "溜肉段",
+      "清炒时蔬",
+      "番茄蛋汤",
+      "东北名菜溜肉段",
+      "外酥里嫩",
+      "咸鲜口",
+      "配时蔬和蛋汤很均衡"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "guobaorou",
@@ -1784,7 +1966,19 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "锅包肉",
+      "蒜蓉生菜",
+      "冬瓜汤",
+      "东北锅包肉",
+      "色泽金黄",
+      "酸甜口",
+      "外酥里嫩",
+      "配青菜和冬瓜汤很解腻"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "qiangchaotudousi",
@@ -1885,7 +2079,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "炝炒土豆丝",
+      "凉拌海带丝",
+      "冬瓜汤",
+      "炝炒土豆丝是主角",
+      "配凉拌海带丝和冬瓜汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "suansulabaicai",
@@ -1984,7 +2189,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "酸辣大白菜",
+      "凉拌腐竹",
+      "番茄蛋汤",
+      "酸辣大白菜是主角",
+      "配凉拌腐竹和番茄蛋汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "ha youshengcai",
@@ -2079,7 +2295,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "蚝油生菜",
+      "凉拌藕片",
+      "紫菜蛋花汤",
+      "蚝油生菜是主角",
+      "配凉拌藕片和紫菜蛋花汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "jiaochongtou",
@@ -2180,7 +2407,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "红烧狮子头",
+      "凉拌土豆丝",
+      "冬瓜排骨汤",
+      "红烧狮子头是主角",
+      "配凉拌土豆丝和冬瓜排骨汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "shuangpeng",
@@ -2280,7 +2518,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "蒜蓉粉丝蒸扇贝",
+      "凉拌菠菜",
+      "冬瓜汤",
+      "蒜蓉粉丝蒸扇贝是主角",
+      "配凉拌菠菜和冬瓜汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "shuangpeng2",
@@ -2381,7 +2630,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "蒜蓉粉丝蒸虾",
+      "凉拌芹菜",
+      "番茄蛋汤",
+      "蒜蓉粉丝蒸虾是主角",
+      "配凉拌芹菜和番茄蛋汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "kelechiji",
@@ -2476,7 +2736,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "可乐鸡翅",
+      "凉拌莴笋",
+      "紫菜蛋花汤",
+      "可乐鸡翅是主角",
+      "配凉拌莴笋和紫菜蛋花汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "hongshaorou",
@@ -2577,7 +2848,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "红烧肉",
+      "凉拌秋葵",
+      "冬瓜排骨汤",
+      "红烧肉是主角",
+      "配凉拌秋葵和冬瓜排骨汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "tangcupaigu",
@@ -2676,7 +2958,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "糖醋排骨",
+      "凉拌芦笋",
+      "冬瓜汤",
+      "糖醋排骨是主角",
+      "配凉拌芦笋和冬瓜汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "mapodofu",
@@ -2775,7 +3068,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "麻婆豆腐",
+      "凉拌苦瓜",
+      "番茄蛋汤",
+      "麻婆豆腐是主角",
+      "配凉拌苦瓜和番茄蛋汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "yuxiangrous",
@@ -2873,7 +3177,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "鱼香肉丝",
+      "凉拌丝瓜",
+      "紫菜蛋花汤",
+      "鱼香肉丝是主角",
+      "配凉拌丝瓜和紫菜蛋花汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "qingjiaorous",
@@ -2975,7 +3290,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "青椒肉丝",
+      "豆角炒肉",
+      "冬瓜排骨汤",
+      "青椒肉丝是主角",
+      "配豆角炒肉和冬瓜排骨汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "xihongchidan",
@@ -3071,7 +3397,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "西红柿炒蛋",
+      "蒜蓉西兰花",
+      "冬瓜汤",
+      "西红柿炒蛋是主角",
+      "配蒜蓉西兰花和冬瓜汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "disanxian",
@@ -3171,7 +3508,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "地三鲜",
+      "上汤娃娃菜",
+      "番茄蛋汤",
+      "地三鲜是主角",
+      "配上汤娃娃菜和番茄蛋汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "ganbiandoujiao",
@@ -3265,7 +3613,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "干煸豆角",
+      "清炒时蔬",
+      "紫菜蛋花汤",
+      "干煸豆角是主角",
+      "配清炒时蔬和紫菜蛋花汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "suanrongxihua",
@@ -3361,7 +3720,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "蒜蓉西兰花",
+      "鱼香茄子",
+      "冬瓜排骨汤",
+      "蒜蓉西兰花是主角",
+      "配鱼香茄子和冬瓜排骨汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "paihuanggua",
@@ -3456,7 +3826,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "拍黄瓜",
+      "青椒肉丝",
+      "冬瓜汤",
+      "拍黄瓜是主角",
+      "配青椒肉丝和冬瓜汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbanmu'er",
@@ -3550,7 +3931,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌木耳",
+      "干煸四季豆",
+      "番茄蛋汤",
+      "凉拌木耳是主角",
+      "配干煸四季豆和番茄蛋汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbandoufu",
@@ -3636,7 +4028,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌豆腐",
+      "蒜蓉空心菜",
+      "紫菜蛋花汤",
+      "凉拌豆腐是主角",
+      "配蒜蓉空心菜和紫菜蛋花汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "pidan doufu",
@@ -3730,7 +4133,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "皮蛋豆腐",
+      "手撕包菜",
+      "冬瓜排骨汤",
+      "皮蛋豆腐是主角",
+      "配手撕包菜和冬瓜排骨汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbanhaidai",
@@ -3823,7 +4237,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌海带丝",
+      "蒜蓉油麦菜",
+      "冬瓜汤",
+      "凉拌海带丝是主角",
+      "配蒜蓉油麦菜和冬瓜汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbanfuzhu",
@@ -3918,7 +4343,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌腐竹",
+      "蒜蓉生菜",
+      "番茄蛋汤",
+      "凉拌腐竹是主角",
+      "配蒜蓉生菜和番茄蛋汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbannian",
@@ -4015,7 +4451,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌藕片",
+      "炝炒土豆丝",
+      "紫菜蛋花汤",
+      "凉拌藕片是主角",
+      "配炝炒土豆丝和紫菜蛋花汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbantudou",
@@ -4115,7 +4562,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌土豆丝",
+      "酸辣大白菜",
+      "冬瓜排骨汤",
+      "凉拌土豆丝是主角",
+      "配酸辣大白菜和冬瓜排骨汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbanbo",
@@ -4214,7 +4672,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌菠菜",
+      "蚝油生菜",
+      "冬瓜汤",
+      "凉拌菠菜是主角",
+      "配蚝油生菜和冬瓜汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbancel",
@@ -4313,7 +4782,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌芹菜",
+      "麻婆豆腐",
+      "番茄蛋汤",
+      "凉拌芹菜是主角",
+      "配麻婆豆腐和番茄蛋汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbanlu",
@@ -4410,7 +4890,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌莴笋",
+      "干煸豆角",
+      "紫菜蛋花汤",
+      "凉拌莴笋是主角",
+      "配干煸豆角和紫菜蛋花汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbanqiu",
@@ -4506,7 +4997,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌秋葵",
+      "凉拌木耳",
+      "冬瓜排骨汤",
+      "凉拌秋葵是主角",
+      "配凉拌木耳和冬瓜排骨汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbanlu2",
@@ -4599,7 +5101,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌芦笋",
+      "凉拌豆腐",
+      "冬瓜汤",
+      "凉拌芦笋是主角",
+      "配凉拌豆腐和冬瓜汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbanku",
@@ -4695,7 +5208,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌苦瓜",
+      "皮蛋豆腐",
+      "番茄蛋汤",
+      "凉拌苦瓜是主角",
+      "配皮蛋豆腐和番茄蛋汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "liangbansi",
@@ -4785,7 +5309,18 @@
       "average": 0,
       "count": 0,
       "reviews": []
-    }
+    },
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌丝瓜",
+      "凉拌海带丝",
+      "紫菜蛋花汤",
+      "凉拌丝瓜是主角",
+      "配凉拌海带丝和紫菜蛋花汤",
+      "一荤一素一汤",
+      "均衡下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "溜炒腰花",
@@ -4831,7 +5366,14 @@
     },
     "title": "溜炒腰花",
     "time": "30 分钟",
-    "why": "溜炒腰花，家常做法，下饭。"
+    "why": "溜炒腰花，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "溜炒腰花",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "小煎兔",
@@ -4877,7 +5419,14 @@
     },
     "title": "小煎兔",
     "time": "30 分钟",
-    "why": "小煎兔，家常做法，下饭。"
+    "why": "小煎兔，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "小煎兔",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "开锅养锅",
@@ -4923,7 +5472,14 @@
     },
     "title": "开锅养锅",
     "time": "30 分钟",
-    "why": "开锅养锅，家常做法，下饭。"
+    "why": "开锅养锅，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "开锅养锅",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "黄焖鸡",
@@ -4969,7 +5525,14 @@
     },
     "title": "黄焖鸡",
     "time": "30 分钟",
-    "why": "黄焖鸡，家常做法，下饭。"
+    "why": "黄焖鸡，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "黄焖鸡",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "孜然羊肉",
@@ -5015,7 +5578,14 @@
     },
     "title": "孜然羊肉粒",
     "time": "30 分钟",
-    "why": "孜然羊肉粒，家常做法，下饭。"
+    "why": "孜然羊肉粒，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "孜然羊肉粒",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "香蕉麦片",
@@ -5061,7 +5631,14 @@
     },
     "title": "香蕉麦片饼干",
     "time": "30 分钟",
-    "why": "香蕉麦片饼干，家常做法，下饭。"
+    "why": "香蕉麦片饼干，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "香蕉麦片饼干",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "煎鹅蛋",
@@ -5107,7 +5684,14 @@
     },
     "title": "煎鹅蛋",
     "time": "30 分钟",
-    "why": "煎鹅蛋，家常做法，下饭。"
+    "why": "煎鹅蛋，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "煎鹅蛋",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "凉拌香菜",
@@ -5153,7 +5737,14 @@
     },
     "title": "凉拌香菜",
     "time": "30 分钟",
-    "why": "凉拌香菜，家常做法，下饭。"
+    "why": "凉拌香菜，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "凉拌香菜",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "热门家常",
@@ -5199,7 +5790,14 @@
     },
     "title": "热门家常菜1",
     "time": "30 分钟",
-    "why": "热门家常菜1，家常做法，下饭。"
+    "why": "热门家常菜1，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "热门家常菜",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "减脂餐成",
@@ -5245,7 +5843,15 @@
     },
     "title": "减脂餐成功瘦身21斤",
     "time": "30 分钟",
-    "why": "减脂餐成功瘦身21斤，家常做法，下饭。"
+    "why": "减脂餐成功瘦身21斤，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "减脂餐成功瘦身",
+      "斤",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "30天成",
@@ -5291,7 +5897,15 @@
     },
     "title": "30天成功减重8斤",
     "time": "30 分钟",
-    "why": "30天成功减重8斤，家常做法，下饭。"
+    "why": "30天成功减重8斤，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "天成功减重",
+      "斤",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "新疆大盘",
@@ -5337,7 +5951,14 @@
     },
     "title": "新疆大盘鸡",
     "time": "30 分钟",
-    "why": "新疆大盘鸡，家常做法，下饭。"
+    "why": "新疆大盘鸡，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "新疆大盘鸡",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "乾隆白菜",
@@ -5383,7 +6004,14 @@
     },
     "title": "乾隆白菜",
     "time": "30 分钟",
-    "why": "乾隆白菜，家常做法，下饭。"
+    "why": "乾隆白菜，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "乾隆白菜",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   },
   {
     "id": "正宗大盘",
@@ -5429,6 +6057,13 @@
     },
     "title": "正宗大盘鸡",
     "time": "30 分钟",
-    "why": "正宗大盘鸡，家常做法，下饭。"
+    "why": "正宗大盘鸡，家常做法，下饭。",
+    "search_history": [],
+    "highlight_keywords": [
+      "正宗大盘鸡",
+      "家常做法",
+      "下饭"
+    ],
+    "search_result_count": 0
   }
 ]
