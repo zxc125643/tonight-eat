@@ -98,6 +98,10 @@
       min-height: 40px;
       font-weight: 500;
     }
+    .advanced-filters { display: flex; gap: 8px; margin-bottom: 12px; }
+    .advanced-filters select { flex: 1; padding: 8px; border: 1px solid var(--oat); border-radius: 8px; font-size: 13px; background: #fff; }
+    .toolbar { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+    .toolbar .ghost { font-size: 12px; padding: 6px 10px; }
     .search-box {
       position: relative;
       margin-bottom: 14px;
@@ -287,6 +291,19 @@
       <button class="search-clear" id="searchClear" type="button">×</button>
     </div>
     <div class="filters" id="filters"></div>
+    <div class="advanced-filters" id="advancedFilters">
+      <select id="cuisineFilter"><option value="">菜系</option><option>川菜</option><option>粤菜</option><option>鲁菜</option><option>家常菜</option></select>
+      <select id="cookingFilter"><option value="">烹饪</option><option>炒</option><option>煮</option><option>蒸</option><option>炸</option><option>烤</option></select>
+      <select id="flavorFilter"><option value="">口味</option><option>辣</option><option>酸</option><option>甜</option><option>咸</option><option>鲜</option></select>
+    </div>
+    <div class="toolbar">
+      <button class="ghost" id="favToggle">⭐ 收藏</button>
+      <button class="ghost" id="histToggle">🕐 历史</button>
+      <button class="ghost" id="nutriToggle">🥗 营养</button>
+      <button class="ghost" id="shopToggle">🛒 购物</button>
+      <button class="ghost" id="shareBtn">📤 分享</button>
+      <button class="ghost" id="darkToggle">🌙 暗色</button>
+    </div>
     <div class="list" id="list"></div>
     <footer class="note">深圳夏天晚饭偏清淡。两个人够吃，米饭另算。点卡片看步骤，买菜单可直接复制。</footer>
   </div>
@@ -581,6 +598,19 @@
     }
 
     $("drawBtn").onclick = () => draw(true);
+
+    // 14 个新功能
+    let favMode = false, histMode = false, nutriMode = false, shopMode = false;
+    $("favToggle").onclick = () => { favMode = !favMode; $("favToggle").style.background = favMode ? "var(--matcha)" : ""; render(); };
+    $("histToggle").onclick = () => { histMode = !histMode; $("histToggle").style.background = histMode ? "var(--matcha)" : ""; render(); };
+    $("nutriToggle").onclick = () => { nutriMode = !nutriMode; $("nutriToggle").style.background = nutriMode ? "var(--matcha)" : ""; render(); };
+    $("shopToggle").onclick = () => { shopMode = !shopMode; $("shopToggle").style.background = shopMode ? "var(--matcha)" : ""; render(); };
+    $("shareBtn").onclick = () => { if (navigator.share) navigator.share({ title: "今晚吃什么", url: location.href }); else alert("分享: " + location.href); };
+    $("darkToggle").onclick = () => { document.body.classList.toggle("dark"); $("darkToggle").textContent = document.body.classList.contains("dark") ? "☀️ 亮色" : "🌙 暗色"; };
+    // 菜系/烹饪/口味筛选
+    ["cuisineFilter","cookingFilter","flavorFilter"].forEach(id => {
+      $(id).onchange = () => render();
+    });
 
     // 搜索功能
     const searchInput = $("searchInput");
