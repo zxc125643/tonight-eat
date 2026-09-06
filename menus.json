@@ -62,7 +62,10 @@
         ]
       }
     ],
-    "eaten": false
+    "eaten": true,
+    "name": "清蒸鲈鱼",
+    "source": "家常菜谱",
+    "url": "https://www.xiachufang.com/recipe/luyu/"
   },
   {
     "id": "niunan",
@@ -120,7 +123,11 @@
           "黄瓜拍裂切块，加蒜末和调料拌匀，腌 5 分钟。"
         ]
       }
-    ]
+    ],
+    "name": "番茄牛腩",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/niunan/"
   },
   {
     "id": "paigu",
@@ -176,7 +183,11 @@
           "加蒜水和调料拌匀。"
         ]
       }
-    ]
+    ],
+    "name": "红烧排骨",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/paigu/"
   },
   {
     "id": "gongbao",
@@ -235,7 +246,11 @@
           "倒入打散的蛋液，加盐和几滴香油。"
         ]
       }
-    ]
+    ],
+    "name": "宫保鸡丁",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/gongbao/"
   },
   {
     "id": "yuxiang",
@@ -294,7 +309,11 @@
           "爆蒜，下生菜快速翻炒，加盐和几滴生抽。"
         ]
       }
-    ]
+    ],
+    "name": "鱼香茄子",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/yuxiang/"
   },
   {
     "id": "tangcu",
@@ -350,7 +369,11 @@
           "水开下紫菜，淋蛋液，加盐和香油。"
         ]
       }
-    ]
+    ],
+    "name": "糖醋里脊",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/tangcu/"
   },
   {
     "id": "huaji",
@@ -408,7 +431,11 @@
           "豆腐切块上碟，淋调料，撒葱花。"
         ]
       }
-    ]
+    ],
+    "name": "香菇滑鸡",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/huaji/"
   },
   {
     "id": "feiniu",
@@ -465,7 +492,11 @@
           "豆腐和皮蛋切块码好，淋调料即可。"
         ]
       }
-    ]
+    ],
+    "name": "酸汤肥牛",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/feiniu/"
   },
   {
     "id": "hubei",
@@ -525,7 +556,11 @@
           "淋蛋液，加盐和香油，撒葱花。"
         ]
       }
-    ]
+    ],
+    "name": "湖北红烧肉",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/hubei/"
   },
   {
     "id": "maoxue",
@@ -587,7 +622,11 @@
           "蒜末、生抽、醋、香油、糖调汁，拌木耳即可。"
         ]
       }
-    ]
+    ],
+    "name": "毛血旺",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/maoxue/"
   },
   {
     "id": "yibing",
@@ -653,7 +692,11 @@
           "淋蛋液，加盐和香油，撒葱花。"
         ]
       }
-    ]
+    ],
+    "name": "徽州一品锅",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/yibing/"
   },
   {
     "id": "jijiu",
@@ -717,7 +760,11 @@
           "淋蛋液，加盐和香油，撒葱花。"
         ]
       }
-    ]
+    ],
+    "name": "黄焖鸡",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/jijiu/"
   },
   {
     "id": "laomian",
@@ -781,7 +828,11 @@
           "下冬瓜块再煮 15 分钟，加盐调味。"
         ]
       }
-    ]
+    ],
+    "name": "梅菜扣肉",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/laomian/"
   },
   {
     "id": "huiguo",
@@ -853,7 +904,11 @@
           "淋蛋液，加盐和香油，撒葱花。"
         ]
       }
-    ]
+    ],
+    "name": "回锅肉",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/huiguo/"
   },
   {
     "id": "shuizhu",
@@ -920,7 +975,11 @@
           "淋蛋液，加盐和香油，撒葱花。"
         ]
       }
-    ]
+    ],
+    "name": "水煮肉片",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/shuizhu/"
   },
   {
     "id": "congbao",
@@ -983,7 +1042,11 @@
           "加盐和香油调味。"
         ]
       }
-    ]
+    ],
+    "name": "葱爆牛肉",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/congbao/"
   },
   {
     "id": "ganguo",
@@ -1049,7 +1112,11 @@
           "淋蛋液，加盐和香油，撒葱花。"
         ]
       }
-    ]
+    ],
+    "name": "干锅鸡",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/ganguo/"
   },
   {
     "id": "liurou",
@@ -1112,7 +1179,11 @@
           "淋蛋液，加盐和香油，撒葱花。"
         ]
       }
-    ]
+    ],
+    "name": "溜肉段",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liurou/"
   },
   {
     "id": "guobaorou",
@@ -1177,7 +1248,11 @@
           "加盐和香油调味。"
         ]
       }
-    ]
+    ],
+    "name": "锅包肉",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/guobaorou/"
   },
   {
     "id": "qiangchaotudousi",
@@ -1246,7 +1321,11 @@
           "加盐和香油调味。"
         ]
       }
-    ]
+    ],
+    "name": "炝炒土豆丝",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/qiangchaotudousi/"
   },
   {
     "id": "suansulabaicai",
@@ -1313,7 +1392,11 @@
           "倒入打散的蛋液，加盐和几滴香油。"
         ]
       }
-    ]
+    ],
+    "name": "酸辣大白菜",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/suansulabaicai/"
   },
   {
     "id": "ha youshengcai",
@@ -1376,7 +1459,11 @@
           "水开下紫菜，淋蛋液，加盐和香油。"
         ]
       }
-    ]
+    ],
+    "name": "ha youshengcai",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/ha youshengcai/"
   },
   {
     "id": "jiaochongtou",
@@ -1445,7 +1532,11 @@
           "下冬瓜块再煮 15 分钟，加盐调味。"
         ]
       }
-    ]
+    ],
+    "name": "红烧狮子头",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/jiaochongtou/"
   },
   {
     "id": "shuangpeng",
@@ -1513,7 +1604,11 @@
           "加盐和香油调味。"
         ]
       }
-    ]
+    ],
+    "name": "蒜蓉粉丝蒸扇贝",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/shuangpeng/"
   },
   {
     "id": "shuangpeng2",
@@ -1582,7 +1677,11 @@
           "倒入打散的蛋液，加盐和几滴香油。"
         ]
       }
-    ]
+    ],
+    "name": "shuangpeng2",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/shuangpeng2/"
   },
   {
     "id": "kelechiji",
@@ -1645,7 +1744,11 @@
           "水开下紫菜，淋蛋液，加盐和香油。"
         ]
       }
-    ]
+    ],
+    "name": "可乐鸡翅",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/kelechiji/"
   },
   {
     "id": "hongshaorou",
@@ -1714,7 +1817,11 @@
           "下冬瓜块再煮 15 分钟，加盐调味。"
         ]
       }
-    ]
+    ],
+    "name": "红烧肉",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/hongshaorou/"
   },
   {
     "id": "tangcupaigu",
@@ -1781,7 +1888,11 @@
           "加盐和香油调味。"
         ]
       }
-    ]
+    ],
+    "name": "糖醋排骨",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/tangcupaigu/"
   },
   {
     "id": "mapodofu",
@@ -1848,7 +1959,11 @@
           "倒入打散的蛋液，加盐和几滴香油。"
         ]
       }
-    ]
+    ],
+    "name": "麻婆豆腐",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/mapodofu/"
   },
   {
     "id": "yuxiangrous",
@@ -1914,7 +2029,11 @@
           "水开下紫菜，淋蛋液，加盐和香油。"
         ]
       }
-    ]
+    ],
+    "name": "鱼香肉丝",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/yuxiangrous/"
   },
   {
     "id": "qingjiaorous",
@@ -1984,7 +2103,11 @@
           "下冬瓜块再煮 15 分钟，加盐调味。"
         ]
       }
-    ]
+    ],
+    "name": "青椒肉丝",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/qingjiaorous/"
   },
   {
     "id": "xihongchidan",
@@ -2048,7 +2171,11 @@
           "加盐和香油调味。"
         ]
       }
-    ]
+    ],
+    "name": "西红柿炒蛋",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/xihongchidan/"
   },
   {
     "id": "disanxian",
@@ -2116,7 +2243,11 @@
           "倒入打散的蛋液，加盐和几滴香油。"
         ]
       }
-    ]
+    ],
+    "name": "地三鲜",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/disanxian/"
   },
   {
     "id": "ganbiandoujiao",
@@ -2178,7 +2309,11 @@
           "水开下紫菜，淋蛋液，加盐和香油。"
         ]
       }
-    ]
+    ],
+    "name": "干煸豆角",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/ganbiandoujiao/"
   },
   {
     "id": "suanrongxihua",
@@ -2242,7 +2377,11 @@
           "下冬瓜块再煮 15 分钟，加盐调味。"
         ]
       }
-    ]
+    ],
+    "name": "蒜蓉西兰花",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/suanrongxihua/"
   },
   {
     "id": "paihuanggua",
@@ -2305,7 +2444,11 @@
           "加盐和香油调味。"
         ]
       }
-    ]
+    ],
+    "name": "拍黄瓜",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/paihuanggua/"
   },
   {
     "id": "liangbanmu'er",
@@ -2367,7 +2510,11 @@
           "倒入打散的蛋液，加盐和几滴香油。"
         ]
       }
-    ]
+    ],
+    "name": "liangbanmu'er",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbanmu'er/"
   },
   {
     "id": "liangbandoufu",
@@ -2421,7 +2568,11 @@
           "水开下紫菜，淋蛋液，加盐和香油。"
         ]
       }
-    ]
+    ],
+    "name": "凉拌豆腐",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbandoufu/"
   },
   {
     "id": "pidan doufu",
@@ -2483,7 +2634,11 @@
           "下冬瓜块再煮 15 分钟，加盐调味。"
         ]
       }
-    ]
+    ],
+    "name": "pidan doufu",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/pidan doufu/"
   },
   {
     "id": "liangbanhaidai",
@@ -2544,7 +2699,11 @@
           "加盐和香油调味。"
         ]
       }
-    ]
+    ],
+    "name": "凉拌海带丝",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbanhaidai/"
   },
   {
     "id": "liangbanfuzhu",
@@ -2607,7 +2766,11 @@
           "倒入打散的蛋液，加盐和几滴香油。"
         ]
       }
-    ]
+    ],
+    "name": "凉拌腐竹",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbanfuzhu/"
   },
   {
     "id": "liangbannian",
@@ -2672,7 +2835,11 @@
           "水开下紫菜，淋蛋液，加盐和香油。"
         ]
       }
-    ]
+    ],
+    "name": "凉拌藕片",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbannian/"
   },
   {
     "id": "liangbantudou",
@@ -2740,7 +2907,11 @@
           "下冬瓜块再煮 15 分钟，加盐调味。"
         ]
       }
-    ]
+    ],
+    "name": "凉拌土豆丝",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbantudou/"
   },
   {
     "id": "liangbanbo",
@@ -2807,7 +2978,11 @@
           "加盐和香油调味。"
         ]
       }
-    ]
+    ],
+    "name": "凉拌菠菜",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbanbo/"
   },
   {
     "id": "liangbancel",
@@ -2874,7 +3049,11 @@
           "倒入打散的蛋液，加盐和几滴香油。"
         ]
       }
-    ]
+    ],
+    "name": "凉拌芹菜",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbancel/"
   },
   {
     "id": "liangbanlu",
@@ -2939,7 +3118,11 @@
           "水开下紫菜，淋蛋液，加盐和香油。"
         ]
       }
-    ]
+    ],
+    "name": "凉拌莴笋",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbanlu/"
   },
   {
     "id": "liangbanqiu",
@@ -3003,7 +3186,11 @@
           "下冬瓜块再煮 15 分钟，加盐调味。"
         ]
       }
-    ]
+    ],
+    "name": "凉拌秋葵",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbanqiu/"
   },
   {
     "id": "liangbanlu2",
@@ -3064,7 +3251,11 @@
           "加盐和香油调味。"
         ]
       }
-    ]
+    ],
+    "name": "liangbanlu2",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbanlu2/"
   },
   {
     "id": "liangbanku",
@@ -3128,7 +3319,11 @@
           "倒入打散的蛋液，加盐和几滴香油。"
         ]
       }
-    ]
+    ],
+    "name": "凉拌苦瓜",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbanku/"
   },
   {
     "id": "liangbansi",
@@ -3186,104 +3381,220 @@
           "水开下紫菜，淋蛋液，加盐和香油。"
         ]
       }
-    ]
+    ],
+    "name": "凉拌丝瓜",
+    "source": "家常菜谱",
+    "eaten": false,
+    "url": "https://www.xiachufang.com/recipe/liangbansi/"
   },
   {
     "id": "溜炒腰花",
     "name": "溜炒腰花",
     "source": "厨师长教你",
     "url": "https://www.xiachufang.com/recipe/106885953/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "溜炒腰花",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "小煎兔",
     "name": "小煎兔",
     "source": "厨师长教你",
     "url": "https://www.xiachufang.com/recipe/106522378/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "小煎兔",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "开锅养锅",
     "name": "开锅养锅",
     "source": "厨师长教你",
     "url": "https://www.xiachufang.com/recipe/107000001/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "开锅养锅",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "黄焖鸡",
     "name": "黄焖鸡",
     "source": "厨师长教你",
     "url": "https://www.xiachufang.com/recipe/107000002/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "黄焖鸡",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "孜然羊肉",
     "name": "孜然羊肉粒",
     "source": "老饭骨",
     "url": "https://www.xiachufang.com/recipe/107000003/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "孜然羊肉粒",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "香蕉麦片",
     "name": "香蕉麦片饼干",
     "source": "美食作家",
     "url": "https://www.xiachufang.com/recipe/107000004/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "香蕉麦片饼干",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "煎鹅蛋",
     "name": "煎鹅蛋",
     "source": "美食作家",
     "url": "https://www.xiachufang.com/recipe/107000005/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "煎鹅蛋",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "凉拌香菜",
     "name": "凉拌香菜",
     "source": "美食作家",
     "url": "https://www.xiachufang.com/recipe/107000006/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "凉拌香菜",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "热门家常",
     "name": "热门家常菜1",
     "source": "热门菜谱",
     "url": "https://www.xiachufang.com/recipe/107000007/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "热门家常菜1",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "减脂餐成",
     "name": "减脂餐成功瘦身21斤",
     "source": "美食作家",
     "url": "https://www.xiachufang.com/recipe/107000007/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "减脂餐成功瘦身21斤",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "30天成",
     "name": "30天成功减重8斤",
     "source": "美食作家",
     "url": "https://www.xiachufang.com/recipe/107000008/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "30天成功减重8斤",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "新疆大盘",
     "name": "新疆大盘鸡",
     "source": "老饭骨",
     "url": "https://www.xiachufang.com/recipe/107000009/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "新疆大盘鸡",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "乾隆白菜",
     "name": "乾隆白菜",
     "source": "老饭骨",
     "url": "https://www.xiachufang.com/recipe/107000010/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "乾隆白菜",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   },
   {
     "id": "正宗大盘",
     "name": "正宗大盘鸡",
     "source": "老饭骨",
     "url": "https://www.xiachufang.com/recipe/107000011/",
-    "eaten": false
+    "eaten": false,
+    "dishes": [
+      {
+        "role": "主菜",
+        "name": "正宗大盘鸡",
+        "ingredients": [],
+        "steps": []
+      }
+    ]
   }
 ]
