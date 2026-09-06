@@ -8,6 +8,7 @@
 """
 import json
 import os
+import random
 import re
 import sys
 import urllib.request
@@ -17,7 +18,42 @@ from datetime import datetime
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MENUS_FILE = os.path.join(BASE_DIR, "menus.json")
 LOG_FILE = os.path.join(BASE_DIR, "fetch.log")
-PROXY = "http://127.0.0.1:7897"
+
+# ── 代理池：从 grok-stack/egress 的 mihomo.yaml 读取本地端口 ──
+# 每个节点一个 127.0.0.1 端口（mixed 类型，支持 http/https 代理）。
+# 抓取时随机轮换出口 IP，避免下厨房对单一 IP 限流（429/503）。
+EGRESS_YAML = "/home/yi/grok-stack/egress/mihomo.yaml"
+PROXY_POOL = []  # [(port, proxy_name), ...]
+
+
+def load_proxy_pool():
+    """从 mihomo.yaml 的 listeners 段提取本地代理端口。"""
+    global PROXY_POOL
+    try:
+        with open(EGRESS_YAML, "r", encoding="utf-8") as f:
+            content = f.read()
+        # 只取 listeners 段（proxies 段是远端服务器，不是本地端口）
+        listeners = content.split("listeners:", 1)[1] if "listeners:" in content else ""
+        # 匹配: port: NNNN ... proxy: name
+        # 每个 listener 块: - name: mixed-xxx / type: mixed / port: NNNN / listen: 127.0.0.1 / proxy: xxx
+        blocks = re.findall(
+            r"port:\s*(\d+)\s*\n\s*listen:\s*127\.0\.0\.1\s*\n\s*proxy:\s*(\S+)",
+            listeners,
+        )
+        PROXY_POOL = [(int(p), name) for p, name in blocks]
+    except Exception as e:
+        log(f"加载代理池失败: {e}")
+        PROXY_POOL = []
+    return PROXY_POOL
+
+
+def pick_proxy():
+    """随机选一个代理端口，返回 http://127.0.0.1:PORT。"""
+    if PROXY_POOL:
+        port, _ = random.choice(PROXY_POOL)
+        return f"http://127.0.0.1:{port}"
+    # 兜底：原 7897
+    return "http://127.0.0.1:7897"
 
 SEARCHES = [
     # 特定厨师/美食作家
@@ -39,18 +75,30 @@ def log(msg):
         f.write(line + "\n")
 
 
-def http_get(url, timeout=20):
-    req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "Accept-Language": "zh-CN,zh;q=0.9",
-    })
-    if PROXY:
-        proxy_handler = urllib.request.ProxyHandler({"http": PROXY, "https": PROXY})
-        opener = urllib.request.build_opener(proxy_handler)
-    else:
-        opener = urllib.request.build_opener()
-    with opener.open(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", errors="ignore")
+def http_get(url, timeout=20, retries=3):
+    """GET 请求，随机走代理池出口；失败自动换代理重试。
+
+    代理池里混着死节点（SSL EOF / 超时），单次命中死节点就失败。
+    这里重试 retries 次，每次 pick_proxy() 重新随机选端口，
+    大概率绕开死节点命中活节点。
+    """
+    last_err = None
+    for attempt in range(retries):
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Accept-Language": "zh-CN,zh;q=0.9",
+        })
+        proxy = pick_proxy()
+        try:
+            proxy_handler = urllib.request.ProxyHandler({"http": proxy, "https": proxy})
+            opener = urllib.request.build_opener(proxy_handler)
+            with opener.open(req, timeout=timeout) as r:
+                return r.read().decode("utf-8", errors="ignore")
+        except Exception as e:
+            last_err = e
+            # 429/503 是限流，换 IP 重试有意义；其它错误也换 IP 再试
+            continue
+    raise last_err
 
 
 def load_menus():
@@ -132,6 +180,9 @@ def parse_recipe_page(html_text):
 
 def main():
     dry_run = "--dry-run" in sys.argv
+    # 加载代理池（随机轮换出口 IP，防限流）
+    pool = load_proxy_pool()
+    log(f"代理池: {len(pool)} 个出口节点" + (f"（示例端口 {pool[0][0]}）" if pool else "（空，走 7897 兜底）"))
     menus = load_menus()
     existing_ids = {m.get("id") for m in menus}
     added = 0

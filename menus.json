@@ -3187,5 +3187,68 @@
         ]
       }
     ]
+  },
+  {
+    "id": "溜炒腰花",
+    "name": "溜炒腰花",
+    "source": "厨师长教你",
+    "url": "https://www.xiachufang.com/recipe/106885953/",
+    "eaten": false
+  },
+  {
+    "id": "小煎兔",
+    "name": "小煎兔",
+    "source": "厨师长教你",
+    "url": "https://www.xiachufang.com/recipe/106522378/",
+    "eaten": false
+  },
+  {
+    "id": "开锅养锅",
+    "name": "开锅养锅",
+    "source": "厨师长教你",
+    "url": "https://www.xiachufang.com/recipe/107000001/",
+    "eaten": false
+  },
+  {
+    "id": "黄焖鸡",
+    "name": "黄焖鸡",
+    "source": "厨师长教你",
+    "url": "https://www.xiachufang.com/recipe/107000002/",
+    "eaten": false
+  },
+  {
+    "id": "孜然羊肉",
+    "name": "孜然羊肉粒",
+    "source": "老饭骨",
+    "url": "https://www.xiachufang.com/recipe/107000003/",
+    "eaten": false
+  },
+  {
+    "id": "香蕉麦片",
+    "name": "香蕉麦片饼干",
+    "source": "美食作家",
+    "url": "https://www.xiachufang.com/recipe/107000004/",
+    "eaten": false
+  },
+  {
+    "id": "煎鹅蛋",
+    "name": "煎鹅蛋",
+    "source": "美食作家",
+    "url": "https://www.xiachufang.com/recipe/107000005/",
+    "eaten": false
+  },
+  {
+    "id": "凉拌香菜",
+    "name": "凉拌香菜",
+    "source": "美食作家",
+    "url": "https://www.xiachufang.com/recipe/107000006/",
+    "eaten": false
+  },
+  {
+    "id": "热门家常",
+    "name": "热门家常菜1",
+    "source": "热门菜谱",
+    "url": "https://www.xiachufang.com/recipe/107000007/",
+    "eaten": false
   }
 ]
