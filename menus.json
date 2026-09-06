@@ -104,7 +104,113 @@
       "豆角下饭",
       "油麦菜解腻"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "粤菜",
+    "cooking_method": "炒",
+    "flavor": "鲜",
+    "pwa_manifest": {
+      "name": "清蒸鲈鱼 · 豆角炒肉 · 蒜蓉油麦菜",
+      "short_name": "清蒸鲈鱼 · 豆角炒",
+      "description": "热天最合适。鱼鲜、豆角下饭，油麦菜解腻。",
+      "icons": [
+        {
+          "src": "/icons/icon-luyu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-luyu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/luyu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-luyu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/luyu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/luyu-thumb.jpg",
+          "full_src": "/images/luyu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：清蒸鲈鱼 · 豆角炒肉 · 蒜蓉油麦菜",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "niunan",
@@ -203,7 +309,113 @@
       "汤汁拌饭很香",
       "西兰花和黄瓜把油切掉"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "番茄牛腩 · 蒜蓉西兰花 · 拍黄瓜",
+      "short_name": "番茄牛腩 · 蒜蓉西",
+      "description": "汤汁拌饭很香。西兰花和黄瓜把油切掉。",
+      "icons": [
+        {
+          "src": "/icons/icon-niunan-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-niunan-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/niunan",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-niunan",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/niunan",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/niunan-thumb.jpg",
+          "full_src": "/images/niunan-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：番茄牛腩 · 蒜蓉西兰花 · 拍黄瓜",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "paigu",
@@ -300,7 +512,113 @@
       "周末想吃得像样一点",
       "排骨是主角"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "鲁菜",
+    "cooking_method": "烤",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "红烧排骨 · 上汤娃娃菜 · 凉拌木耳",
+      "short_name": "红烧排骨 · 上汤娃",
+      "description": "周末想吃得像样一点，排骨是主角。",
+      "icons": [
+        {
+          "src": "/icons/icon-paigu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-paigu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/paigu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-paigu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/paigu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/paigu-thumb.jpg",
+          "full_src": "/images/paigu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：红烧排骨 · 上汤娃娃菜 · 凉拌木耳",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "gongbao",
@@ -401,7 +719,113 @@
       "鸡丁香辣",
       "汤开胃"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "炒",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "宫保鸡丁 · 清炒时蔬 · 番茄蛋汤",
+      "short_name": "宫保鸡丁 · 清炒时",
+      "description": "半小时能上桌，鸡丁香辣，汤开胃。",
+      "icons": [
+        {
+          "src": "/icons/icon-gongbao-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-gongbao-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/gongbao",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-gongbao",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/gongbao",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/gongbao-thumb.jpg",
+          "full_src": "/images/gongbao-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：宫保鸡丁 · 清炒时蔬 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "yuxiang",
@@ -501,7 +925,113 @@
       "茄子和肉丝都很下饭",
       "生菜清口"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "鲜",
+    "pwa_manifest": {
+      "name": "鱼香茄子 · 青椒肉丝 · 蒜蓉生菜",
+      "short_name": "鱼香茄子 · 青椒肉",
+      "description": "茄子和肉丝都很下饭，生菜清口。",
+      "icons": [
+        {
+          "src": "/icons/icon-yuxiang-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-yuxiang-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/yuxiang",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-yuxiang",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/yuxiang",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/yuxiang-thumb.jpg",
+          "full_src": "/images/yuxiang-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：鱼香茄子 · 青椒肉丝 · 蒜蓉生菜",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "tangcu",
@@ -599,7 +1129,113 @@
       "四季豆很香",
       "汤很清"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "鲁菜",
+    "cooking_method": "其他",
+    "flavor": "酸",
+    "pwa_manifest": {
+      "name": "糖醋里脊 · 干煸四季豆 · 紫菜蛋花汤",
+      "short_name": "糖醋里脊 · 干煸四",
+      "description": "酸甜解馋，四季豆很香，汤很清。",
+      "icons": [
+        {
+          "src": "/icons/icon-tangcu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-tangcu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/tangcu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-tangcu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/tangcu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/tangcu-thumb.jpg",
+          "full_src": "/images/tangcu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：糖醋里脊 · 干煸四季豆 · 紫菜蛋花汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "huaji",
@@ -699,7 +1335,113 @@
       "好消化",
       "夏天晚上很舒服"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "香菇滑鸡 · 蒜蓉空心菜 · 凉拌豆腐",
+      "short_name": "香菇滑鸡 · 蒜蓉空",
+      "description": "少油、好消化，夏天晚上很舒服。",
+      "icons": [
+        {
+          "src": "/icons/icon-huaji-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-huaji-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/huaji",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-huaji",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/huaji",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/huaji-thumb.jpg",
+          "full_src": "/images/huaji-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：香菇滑鸡 · 蒜蓉空心菜 · 凉拌豆腐",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "feiniu",
@@ -798,7 +1540,113 @@
       "酸香开胃",
       "不怎么油"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "酸",
+    "pwa_manifest": {
+      "name": "酸汤肥牛 · 手撕包菜 · 皮蛋豆腐",
+      "short_name": "酸汤肥牛 · 手撕包",
+      "description": "最快的一套。酸香开胃，不怎么油。",
+      "icons": [
+        {
+          "src": "/icons/icon-feiniu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-feiniu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/feiniu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-feiniu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/feiniu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/feiniu-thumb.jpg",
+          "full_src": "/images/feiniu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：酸汤肥牛 · 手撕包菜 · 皮蛋豆腐",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "hubei",
@@ -900,7 +1748,113 @@
       "肥而不腻",
       "配时蔬和蛋汤很均衡"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "鲁菜",
+    "cooking_method": "炒",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "湖北红烧肉 · 清炒时蔬 · 番茄蛋汤",
+      "short_name": "湖北红烧肉 · 清炒",
+      "description": "湖北家常红烧肉，肥而不腻，配时蔬和蛋汤很均衡。",
+      "icons": [
+        {
+          "src": "/icons/icon-hubei-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-hubei-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/hubei",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-hubei",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/hubei",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/hubei-thumb.jpg",
+          "full_src": "/images/hubei-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：湖北红烧肉 · 清炒时蔬 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "maoxue",
@@ -1003,7 +1957,113 @@
       "四川毛血旺麻辣过瘾",
       "西兰花清爽解腻"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "毛血旺 · 蒜蓉西兰花 · 凉拌木耳",
+      "short_name": "毛血旺 · 蒜蓉西兰",
+      "description": "四川毛血旺麻辣过瘾，西兰花清爽解腻。",
+      "icons": [
+        {
+          "src": "/icons/icon-maoxue-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-maoxue-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/maoxue",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-maoxue",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/maoxue",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/maoxue-thumb.jpg",
+          "full_src": "/images/maoxue-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：毛血旺 · 蒜蓉西兰花 · 凉拌木耳",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "yibing",
@@ -1111,7 +2171,113 @@
       "一锅炖出满满烟火气",
       "配时蔬和蛋汤很均衡"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "炒",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "徽州一品锅 · 清炒时蔬 · 番茄蛋汤",
+      "short_name": "徽州一品锅 · 清炒",
+      "description": "徽州名菜，一锅炖出满满烟火气，配时蔬和蛋汤很均衡。",
+      "icons": [
+        {
+          "src": "/icons/icon-yibing-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-yibing-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/yibing",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-yibing",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/yibing",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/yibing-thumb.jpg",
+          "full_src": "/images/yibing-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：徽州一品锅 · 清炒时蔬 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "jijiu",
@@ -1217,7 +2383,113 @@
       "汤汁拌饭特别香",
       "配青菜和蛋汤很均衡"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "黄焖鸡 · 蒜蓉油麦菜 · 紫菜蛋花汤",
+      "short_name": "黄焖鸡 · 蒜蓉油麦",
+      "description": "经典下饭菜，汤汁拌饭特别香，配青菜和蛋汤很均衡。",
+      "icons": [
+        {
+          "src": "/icons/icon-jijiu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-jijiu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/jijiu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-jijiu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/jijiu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/jijiu-thumb.jpg",
+          "full_src": "/images/jijiu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：黄焖鸡 · 蒜蓉油麦菜 · 紫菜蛋花汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "laomian",
@@ -1323,7 +2595,113 @@
       "肥而不腻",
       "配清爽蔬菜和冬瓜汤很解腻"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "梅菜扣肉 · 蒜蓉生菜 · 冬瓜汤",
+      "short_name": "梅菜扣肉 · 蒜蓉生",
+      "description": "经典硬菜，肥而不腻，配清爽蔬菜和冬瓜汤很解腻。",
+      "icons": [
+        {
+          "src": "/icons/icon-laomian-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-laomian-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/laomian",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-laomian",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/laomian",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/laomian-thumb.jpg",
+          "full_src": "/images/laomian-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：梅菜扣肉 · 蒜蓉生菜 · 冬瓜汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "huiguo",
@@ -1438,7 +2816,113 @@
       "酱香下饭",
       "西兰花解腻"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "回锅肉 · 蒜蓉西兰花 · 紫菜蛋花汤",
+      "short_name": "回锅肉 · 蒜蓉西兰",
+      "description": "王刚版回锅肉，肉片灯盏窝配蒜苗，酱香下饭，西兰花解腻。",
+      "icons": [
+        {
+          "src": "/icons/icon-huiguo-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-huiguo-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/huiguo",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-huiguo",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/huiguo",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/huiguo-thumb.jpg",
+          "full_src": "/images/huiguo-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：回锅肉 · 蒜蓉西兰花 · 紫菜蛋花汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "shuizhu",
@@ -1548,7 +3032,113 @@
       "肉片滑嫩",
       "配时蔬和蛋汤很均衡"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "炒",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "水煮肉片 · 清炒时蔬 · 番茄蛋汤",
+      "short_name": "水煮肉片 · 清炒时",
+      "description": "王刚版水煮肉片，麻辣鲜香，肉片滑嫩，配时蔬和蛋汤很均衡。",
+      "icons": [
+        {
+          "src": "/icons/icon-shuizhu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-shuizhu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/shuizhu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-shuizhu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/shuizhu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/shuizhu-thumb.jpg",
+          "full_src": "/images/shuizhu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：水煮肉片 · 清炒时蔬 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "congbao",
@@ -1654,7 +3244,113 @@
       "牛肉嫩滑",
       "配青菜和冬瓜汤很清爽"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "炒",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "葱爆牛肉 · 蒜蓉油麦菜 · 冬瓜汤",
+      "short_name": "葱爆牛肉 · 蒜蓉油",
+      "description": "厨师长版葱爆牛肉，葱香浓郁，牛肉嫩滑，配青菜和冬瓜汤很清爽。",
+      "icons": [
+        {
+          "src": "/icons/icon-congbao-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-congbao-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/congbao",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-congbao",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/congbao",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/congbao-thumb.jpg",
+          "full_src": "/images/congbao-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：葱爆牛肉 · 蒜蓉油麦菜 · 冬瓜汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "ganguo",
@@ -1763,7 +3459,113 @@
       "外焦里嫩",
       "配青菜和蛋汤很解腻"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "干锅鸡 · 蒜蓉空心菜 · 紫菜蛋花汤",
+      "short_name": "干锅鸡 · 蒜蓉空心",
+      "description": "厨师长版干锅鸡，肉香四溢，外焦里嫩，配青菜和蛋汤很解腻。",
+      "icons": [
+        {
+          "src": "/icons/icon-ganguo-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-ganguo-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/ganguo",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-ganguo",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/ganguo",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/ganguo-thumb.jpg",
+          "full_src": "/images/ganguo-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：干锅鸡 · 蒜蓉空心菜 · 紫菜蛋花汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liurou",
@@ -1869,7 +3671,113 @@
       "咸鲜口",
       "配时蔬和蛋汤很均衡"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "炒",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "溜肉段 · 清炒时蔬 · 番茄蛋汤",
+      "short_name": "溜肉段 · 清炒时蔬",
+      "description": "东北名菜溜肉段，外酥里嫩，咸鲜口，配时蔬和蛋汤很均衡。",
+      "icons": [
+        {
+          "src": "/icons/icon-liurou-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liurou-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liurou",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liurou",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liurou",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liurou-thumb.jpg",
+          "full_src": "/images/liurou-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：溜肉段 · 清炒时蔬 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "guobaorou",
@@ -1978,7 +3886,113 @@
       "外酥里嫩",
       "配青菜和冬瓜汤很解腻"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "锅包肉 · 蒜蓉生菜 · 冬瓜汤",
+      "short_name": "锅包肉 · 蒜蓉生菜",
+      "description": "东北锅包肉，色泽金黄，酸甜口，外酥里嫩，配青菜和冬瓜汤很解腻。",
+      "icons": [
+        {
+          "src": "/icons/icon-guobaorou-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-guobaorou-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/guobaorou",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-guobaorou",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/guobaorou",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/guobaorou-thumb.jpg",
+          "full_src": "/images/guobaorou-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：锅包肉 · 蒜蓉生菜 · 冬瓜汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "qiangchaotudousi",
@@ -2090,7 +4104,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "炒",
+    "flavor": "鲜",
+    "pwa_manifest": {
+      "name": "炝炒土豆丝 · 凉拌海带丝 · 冬瓜汤",
+      "short_name": "炝炒土豆丝 · 凉拌",
+      "description": "炝炒土豆丝是主角，配凉拌海带丝和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-qiangchaotudousi-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-qiangchaotudousi-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/qiangchaotudousi",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-qiangchaotudousi",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/qiangchaotudousi",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/qiangchaotudousi-thumb.jpg",
+          "full_src": "/images/qiangchaotudousi-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：炝炒土豆丝 · 凉拌海带丝 · 冬瓜汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "suansulabaicai",
@@ -2200,7 +4320,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "辣",
+    "pwa_manifest": {
+      "name": "酸辣大白菜 · 凉拌腐竹 · 番茄蛋汤",
+      "short_name": "酸辣大白菜 · 凉拌",
+      "description": "酸辣大白菜是主角，配凉拌腐竹和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-suansulabaicai-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-suansulabaicai-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/suansulabaicai",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-suansulabaicai",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/suansulabaicai",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/suansulabaicai-thumb.jpg",
+          "full_src": "/images/suansulabaicai-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：酸辣大白菜 · 凉拌腐竹 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "ha youshengcai",
@@ -2306,7 +4532,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "蚝油生菜 · 凉拌藕片 · 紫菜蛋花汤",
+      "short_name": "蚝油生菜 · 凉拌藕",
+      "description": "蚝油生菜是主角，配凉拌藕片和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-ha youshengcai-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-ha youshengcai-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/ha youshengcai",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-ha youshengcai",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/ha youshengcai",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/ha youshengcai-thumb.jpg",
+          "full_src": "/images/ha youshengcai-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：蚝油生菜 · 凉拌藕片 · 紫菜蛋花汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "jiaochongtou",
@@ -2418,7 +4750,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "鲁菜",
+    "cooking_method": "烤",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "红烧狮子头 · 凉拌土豆丝 · 冬瓜排骨汤",
+      "short_name": "红烧狮子头 · 凉拌",
+      "description": "红烧狮子头是主角，配凉拌土豆丝和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-jiaochongtou-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-jiaochongtou-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/jiaochongtou",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-jiaochongtou",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/jiaochongtou",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/jiaochongtou-thumb.jpg",
+          "full_src": "/images/jiaochongtou-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：红烧狮子头 · 凉拌土豆丝 · 冬瓜排骨汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "shuangpeng",
@@ -2529,7 +4967,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "蒸",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "蒜蓉粉丝蒸扇贝 · 凉拌菠菜 · 冬瓜汤",
+      "short_name": "蒜蓉粉丝蒸扇贝 · ",
+      "description": "蒜蓉粉丝蒸扇贝是主角，配凉拌菠菜和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-shuangpeng-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-shuangpeng-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/shuangpeng",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-shuangpeng",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/shuangpeng",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/shuangpeng-thumb.jpg",
+          "full_src": "/images/shuangpeng-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：蒜蓉粉丝蒸扇贝 · 凉拌菠菜 · 冬瓜汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "shuangpeng2",
@@ -2641,7 +5185,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "蒸",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "蒜蓉粉丝蒸虾 · 凉拌芹菜 · 番茄蛋汤",
+      "short_name": "蒜蓉粉丝蒸虾 · 凉",
+      "description": "蒜蓉粉丝蒸虾是主角，配凉拌芹菜和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-shuangpeng2-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-shuangpeng2-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/shuangpeng2",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-shuangpeng2",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/shuangpeng2",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/shuangpeng2-thumb.jpg",
+          "full_src": "/images/shuangpeng2-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：蒜蓉粉丝蒸虾 · 凉拌芹菜 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "kelechiji",
@@ -2747,7 +5397,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "可乐鸡翅 · 凉拌莴笋 · 紫菜蛋花汤",
+      "short_name": "可乐鸡翅 · 凉拌莴",
+      "description": "可乐鸡翅是主角，配凉拌莴笋和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-kelechiji-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-kelechiji-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/kelechiji",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-kelechiji",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/kelechiji",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/kelechiji-thumb.jpg",
+          "full_src": "/images/kelechiji-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：可乐鸡翅 · 凉拌莴笋 · 紫菜蛋花汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "hongshaorou",
@@ -2859,7 +5615,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "鲁菜",
+    "cooking_method": "烤",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "红烧肉 · 凉拌秋葵 · 冬瓜排骨汤",
+      "short_name": "红烧肉 · 凉拌秋葵",
+      "description": "红烧肉是主角，配凉拌秋葵和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-hongshaorou-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-hongshaorou-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/hongshaorou",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-hongshaorou",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/hongshaorou",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/hongshaorou-thumb.jpg",
+          "full_src": "/images/hongshaorou-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：红烧肉 · 凉拌秋葵 · 冬瓜排骨汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "tangcupaigu",
@@ -2969,7 +5831,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "鲁菜",
+    "cooking_method": "其他",
+    "flavor": "酸",
+    "pwa_manifest": {
+      "name": "糖醋排骨 · 凉拌芦笋 · 冬瓜汤",
+      "short_name": "糖醋排骨 · 凉拌芦",
+      "description": "糖醋排骨是主角，配凉拌芦笋和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-tangcupaigu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-tangcupaigu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/tangcupaigu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-tangcupaigu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/tangcupaigu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/tangcupaigu-thumb.jpg",
+          "full_src": "/images/tangcupaigu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：糖醋排骨 · 凉拌芦笋 · 冬瓜汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "mapodofu",
@@ -3079,7 +6047,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "麻婆豆腐 · 凉拌苦瓜 · 番茄蛋汤",
+      "short_name": "麻婆豆腐 · 凉拌苦",
+      "description": "麻婆豆腐是主角，配凉拌苦瓜和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-mapodofu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-mapodofu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/mapodofu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-mapodofu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/mapodofu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/mapodofu-thumb.jpg",
+          "full_src": "/images/mapodofu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：麻婆豆腐 · 凉拌苦瓜 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "yuxiangrous",
@@ -3188,7 +6262,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "鲜",
+    "pwa_manifest": {
+      "name": "鱼香肉丝 · 凉拌丝瓜 · 紫菜蛋花汤",
+      "short_name": "鱼香肉丝 · 凉拌丝",
+      "description": "鱼香肉丝是主角，配凉拌丝瓜和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-yuxiangrous-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-yuxiangrous-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/yuxiangrous",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-yuxiangrous",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/yuxiangrous",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/yuxiangrous-thumb.jpg",
+          "full_src": "/images/yuxiangrous-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：鱼香肉丝 · 凉拌丝瓜 · 紫菜蛋花汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "qingjiaorous",
@@ -3301,7 +6481,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "炒",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "青椒肉丝 · 豆角炒肉 · 冬瓜排骨汤",
+      "short_name": "青椒肉丝 · 豆角炒",
+      "description": "青椒肉丝是主角，配豆角炒肉和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-qingjiaorous-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-qingjiaorous-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/qingjiaorous",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-qingjiaorous",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/qingjiaorous",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/qingjiaorous-thumb.jpg",
+          "full_src": "/images/qingjiaorous-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：青椒肉丝 · 豆角炒肉 · 冬瓜排骨汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "xihongchidan",
@@ -3408,7 +6694,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "炒",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "西红柿炒蛋 · 蒜蓉西兰花 · 冬瓜汤",
+      "short_name": "西红柿炒蛋 · 蒜蓉",
+      "description": "西红柿炒蛋是主角，配蒜蓉西兰花和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-xihongchidan-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-xihongchidan-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/xihongchidan",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-xihongchidan",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/xihongchidan",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/xihongchidan-thumb.jpg",
+          "full_src": "/images/xihongchidan-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：西红柿炒蛋 · 蒜蓉西兰花 · 冬瓜汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "disanxian",
@@ -3519,7 +6911,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "鲜",
+    "pwa_manifest": {
+      "name": "地三鲜 · 上汤娃娃菜 · 番茄蛋汤",
+      "short_name": "地三鲜 · 上汤娃娃",
+      "description": "地三鲜是主角，配上汤娃娃菜和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-disanxian-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-disanxian-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/disanxian",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-disanxian",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/disanxian",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/disanxian-thumb.jpg",
+          "full_src": "/images/disanxian-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：地三鲜 · 上汤娃娃菜 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "ganbiandoujiao",
@@ -3624,7 +7122,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "炒",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "干煸豆角 · 清炒时蔬 · 紫菜蛋花汤",
+      "short_name": "干煸豆角 · 清炒时",
+      "description": "干煸豆角是主角，配清炒时蔬和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-ganbiandoujiao-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-ganbiandoujiao-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/ganbiandoujiao",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-ganbiandoujiao",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/ganbiandoujiao",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/ganbiandoujiao-thumb.jpg",
+          "full_src": "/images/ganbiandoujiao-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：干煸豆角 · 清炒时蔬 · 紫菜蛋花汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "suanrongxihua",
@@ -3731,7 +7335,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "鲜",
+    "pwa_manifest": {
+      "name": "蒜蓉西兰花 · 鱼香茄子 · 冬瓜排骨汤",
+      "short_name": "蒜蓉西兰花 · 鱼香",
+      "description": "蒜蓉西兰花是主角，配鱼香茄子和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-suanrongxihua-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-suanrongxihua-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/suanrongxihua",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-suanrongxihua",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/suanrongxihua",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/suanrongxihua-thumb.jpg",
+          "full_src": "/images/suanrongxihua-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：蒜蓉西兰花 · 鱼香茄子 · 冬瓜排骨汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "paihuanggua",
@@ -3837,7 +7547,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "拍黄瓜 · 青椒肉丝 · 冬瓜汤",
+      "short_name": "拍黄瓜 · 青椒肉丝",
+      "description": "拍黄瓜是主角，配青椒肉丝和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-paihuanggua-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-paihuanggua-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/paihuanggua",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-paihuanggua",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/paihuanggua",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/paihuanggua-thumb.jpg",
+          "full_src": "/images/paihuanggua-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：拍黄瓜 · 青椒肉丝 · 冬瓜汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbanmu'er",
@@ -3942,7 +7758,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "凉拌木耳 · 干煸四季豆 · 番茄蛋汤",
+      "short_name": "凉拌木耳 · 干煸四",
+      "description": "凉拌木耳是主角，配干煸四季豆和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbanmu'er-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbanmu'er-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbanmu'er",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbanmu'er",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbanmu'er",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbanmu'er-thumb.jpg",
+          "full_src": "/images/liangbanmu'er-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌木耳 · 干煸四季豆 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbandoufu",
@@ -4039,7 +7961,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "凉拌豆腐 · 蒜蓉空心菜 · 紫菜蛋花汤",
+      "short_name": "凉拌豆腐 · 蒜蓉空",
+      "description": "凉拌豆腐是主角，配蒜蓉空心菜和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbandoufu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbandoufu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbandoufu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbandoufu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbandoufu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbandoufu-thumb.jpg",
+          "full_src": "/images/liangbandoufu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌豆腐 · 蒜蓉空心菜 · 紫菜蛋花汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "pidan doufu",
@@ -4144,7 +8172,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "皮蛋豆腐 · 手撕包菜 · 冬瓜排骨汤",
+      "short_name": "皮蛋豆腐 · 手撕包",
+      "description": "皮蛋豆腐是主角，配手撕包菜和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-pidan doufu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-pidan doufu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/pidan doufu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-pidan doufu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/pidan doufu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/pidan doufu-thumb.jpg",
+          "full_src": "/images/pidan doufu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：皮蛋豆腐 · 手撕包菜 · 冬瓜排骨汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbanhaidai",
@@ -4248,7 +8382,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "鲜",
+    "pwa_manifest": {
+      "name": "凉拌海带丝 · 蒜蓉油麦菜 · 冬瓜汤",
+      "short_name": "凉拌海带丝 · 蒜蓉",
+      "description": "凉拌海带丝是主角，配蒜蓉油麦菜和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbanhaidai-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbanhaidai-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbanhaidai",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbanhaidai",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbanhaidai",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbanhaidai-thumb.jpg",
+          "full_src": "/images/liangbanhaidai-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌海带丝 · 蒜蓉油麦菜 · 冬瓜汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbanfuzhu",
@@ -4354,7 +8594,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "凉拌腐竹 · 蒜蓉生菜 · 番茄蛋汤",
+      "short_name": "凉拌腐竹 · 蒜蓉生",
+      "description": "凉拌腐竹是主角，配蒜蓉生菜和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbanfuzhu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbanfuzhu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbanfuzhu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbanfuzhu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbanfuzhu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbanfuzhu-thumb.jpg",
+          "full_src": "/images/liangbanfuzhu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌腐竹 · 蒜蓉生菜 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbannian",
@@ -4462,7 +8808,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "炒",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "凉拌藕片 · 炝炒土豆丝 · 紫菜蛋花汤",
+      "short_name": "凉拌藕片 · 炝炒土",
+      "description": "凉拌藕片是主角，配炝炒土豆丝和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbannian-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbannian-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbannian",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbannian",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbannian",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbannian-thumb.jpg",
+          "full_src": "/images/liangbannian-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌藕片 · 炝炒土豆丝 · 紫菜蛋花汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbantudou",
@@ -4573,7 +9025,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "辣",
+    "pwa_manifest": {
+      "name": "凉拌土豆丝 · 酸辣大白菜 · 冬瓜排骨汤",
+      "short_name": "凉拌土豆丝 · 酸辣",
+      "description": "凉拌土豆丝是主角，配酸辣大白菜和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbantudou-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbantudou-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbantudou",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbantudou",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbantudou",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbantudou-thumb.jpg",
+          "full_src": "/images/liangbantudou-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌土豆丝 · 酸辣大白菜 · 冬瓜排骨汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbanbo",
@@ -4683,7 +9241,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "凉拌菠菜 · 蚝油生菜 · 冬瓜汤",
+      "short_name": "凉拌菠菜 · 蚝油生",
+      "description": "凉拌菠菜是主角，配蚝油生菜和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbanbo-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbanbo-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbanbo",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbanbo",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbanbo",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbanbo-thumb.jpg",
+          "full_src": "/images/liangbanbo-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌菠菜 · 蚝油生菜 · 冬瓜汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbancel",
@@ -4793,7 +9457,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "凉拌芹菜 · 麻婆豆腐 · 番茄蛋汤",
+      "short_name": "凉拌芹菜 · 麻婆豆",
+      "description": "凉拌芹菜是主角，配麻婆豆腐和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbancel-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbancel-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbancel",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbancel",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbancel",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbancel-thumb.jpg",
+          "full_src": "/images/liangbancel-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌芹菜 · 麻婆豆腐 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbanlu",
@@ -4901,7 +9671,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "凉拌莴笋 · 干煸豆角 · 紫菜蛋花汤",
+      "short_name": "凉拌莴笋 · 干煸豆",
+      "description": "凉拌莴笋是主角，配干煸豆角和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbanlu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbanlu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbanlu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbanlu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbanlu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbanlu-thumb.jpg",
+          "full_src": "/images/liangbanlu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌莴笋 · 干煸豆角 · 紫菜蛋花汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbanqiu",
@@ -5008,7 +9884,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "凉拌秋葵 · 凉拌木耳 · 冬瓜排骨汤",
+      "short_name": "凉拌秋葵 · 凉拌木",
+      "description": "凉拌秋葵是主角，配凉拌木耳和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbanqiu-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbanqiu-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbanqiu",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbanqiu",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbanqiu",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbanqiu-thumb.jpg",
+          "full_src": "/images/liangbanqiu-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌秋葵 · 凉拌木耳 · 冬瓜排骨汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbanlu2",
@@ -5112,7 +10094,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "凉拌芦笋 · 凉拌豆腐 · 冬瓜汤",
+      "short_name": "凉拌芦笋 · 凉拌豆",
+      "description": "凉拌芦笋是主角，配凉拌豆腐和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbanlu2-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbanlu2-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbanlu2",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbanlu2",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbanlu2",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbanlu2-thumb.jpg",
+          "full_src": "/images/liangbanlu2-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌芦笋 · 凉拌豆腐 · 冬瓜汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbanku",
@@ -5219,7 +10307,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "凉拌苦瓜 · 皮蛋豆腐 · 番茄蛋汤",
+      "short_name": "凉拌苦瓜 · 皮蛋豆",
+      "description": "凉拌苦瓜是主角，配皮蛋豆腐和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbanku-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbanku-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbanku",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbanku",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbanku",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbanku-thumb.jpg",
+          "full_src": "/images/liangbanku-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌苦瓜 · 皮蛋豆腐 · 番茄蛋汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "liangbansi",
@@ -5320,7 +10514,113 @@
       "一荤一素一汤",
       "均衡下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "鲜",
+    "pwa_manifest": {
+      "name": "凉拌丝瓜 · 凉拌海带丝 · 紫菜蛋花汤",
+      "short_name": "凉拌丝瓜 · 凉拌海",
+      "description": "凉拌丝瓜是主角，配凉拌海带丝和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-liangbansi-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-liangbansi-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/liangbansi",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-liangbansi",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/liangbansi",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/liangbansi-thumb.jpg",
+          "full_src": "/images/liangbansi-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌丝瓜 · 凉拌海带丝 · 紫菜蛋花汤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "溜炒腰花",
@@ -5373,7 +10673,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "炒",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "溜炒腰花",
+      "short_name": "溜炒腰花",
+      "description": "溜炒腰花，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-溜炒腰花-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-溜炒腰花-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/溜炒腰花",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-溜炒腰花",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/溜炒腰花",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/溜炒腰花-thumb.jpg",
+          "full_src": "/images/溜炒腰花-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：溜炒腰花",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "小煎兔",
@@ -5426,7 +10832,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "小煎兔",
+      "short_name": "小煎兔",
+      "description": "小煎兔，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-小煎兔-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-小煎兔-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/小煎兔",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-小煎兔",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/小煎兔",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/小煎兔-thumb.jpg",
+          "full_src": "/images/小煎兔-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：小煎兔",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "开锅养锅",
@@ -5479,7 +10991,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "开锅养锅",
+      "short_name": "开锅养锅",
+      "description": "开锅养锅，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-开锅养锅-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-开锅养锅-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/开锅养锅",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-开锅养锅",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/开锅养锅",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/开锅养锅-thumb.jpg",
+          "full_src": "/images/开锅养锅-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：开锅养锅",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "黄焖鸡",
@@ -5532,7 +11150,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "黄焖鸡",
+      "short_name": "黄焖鸡",
+      "description": "黄焖鸡，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-黄焖鸡-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-黄焖鸡-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/黄焖鸡",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-黄焖鸡",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/黄焖鸡",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/黄焖鸡-thumb.jpg",
+          "full_src": "/images/黄焖鸡-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：黄焖鸡",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "孜然羊肉",
@@ -5585,7 +11309,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "孜然羊肉粒",
+      "short_name": "孜然羊肉粒",
+      "description": "孜然羊肉粒，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-孜然羊肉-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-孜然羊肉-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/孜然羊肉",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-孜然羊肉",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/孜然羊肉",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/孜然羊肉-thumb.jpg",
+          "full_src": "/images/孜然羊肉-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：孜然羊肉粒",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "香蕉麦片",
@@ -5638,7 +11468,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "香蕉麦片饼干",
+      "short_name": "香蕉麦片饼干",
+      "description": "香蕉麦片饼干，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-香蕉麦片-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-香蕉麦片-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/香蕉麦片",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-香蕉麦片",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/香蕉麦片",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/香蕉麦片-thumb.jpg",
+          "full_src": "/images/香蕉麦片-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：香蕉麦片饼干",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "煎鹅蛋",
@@ -5691,7 +11627,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "煎鹅蛋",
+      "short_name": "煎鹅蛋",
+      "description": "煎鹅蛋，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-煎鹅蛋-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-煎鹅蛋-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/煎鹅蛋",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-煎鹅蛋",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/煎鹅蛋",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/煎鹅蛋-thumb.jpg",
+          "full_src": "/images/煎鹅蛋-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：煎鹅蛋",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "凉拌香菜",
@@ -5744,7 +11786,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "凉拌香菜",
+      "short_name": "凉拌香菜",
+      "description": "凉拌香菜，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-凉拌香菜-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-凉拌香菜-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/凉拌香菜",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-凉拌香菜",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/凉拌香菜",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/凉拌香菜-thumb.jpg",
+          "full_src": "/images/凉拌香菜-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：凉拌香菜",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "热门家常",
@@ -5797,7 +11945,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "热门家常菜1",
+      "short_name": "热门家常菜1",
+      "description": "热门家常菜1，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-热门家常-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-热门家常-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/热门家常",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-热门家常",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/热门家常",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/热门家常-thumb.jpg",
+          "full_src": "/images/热门家常-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：热门家常菜1",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "减脂餐成",
@@ -5851,7 +12105,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "减脂餐成功瘦身21斤",
+      "short_name": "减脂餐成功瘦身21斤",
+      "description": "减脂餐成功瘦身21斤，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-减脂餐成-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-减脂餐成-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/减脂餐成",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-减脂餐成",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/减脂餐成",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/减脂餐成-thumb.jpg",
+          "full_src": "/images/减脂餐成-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：减脂餐成功瘦身21斤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "30天成",
@@ -5905,7 +12265,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "30天成功减重8斤",
+      "short_name": "30天成功减重8斤",
+      "description": "30天成功减重8斤，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-30天成-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-30天成-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/30天成",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-30天成",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/30天成",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/30天成-thumb.jpg",
+          "full_src": "/images/30天成-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：30天成功减重8斤",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "新疆大盘",
@@ -5958,7 +12424,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "新疆大盘鸡",
+      "short_name": "新疆大盘鸡",
+      "description": "新疆大盘鸡，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-新疆大盘-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-新疆大盘-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/新疆大盘",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-新疆大盘",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/新疆大盘",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/新疆大盘-thumb.jpg",
+          "full_src": "/images/新疆大盘-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：新疆大盘鸡",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "乾隆白菜",
@@ -6011,7 +12583,113 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "乾隆白菜",
+      "short_name": "乾隆白菜",
+      "description": "乾隆白菜，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-乾隆白菜-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-乾隆白菜-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/乾隆白菜",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-乾隆白菜",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/乾隆白菜",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/乾隆白菜-thumb.jpg",
+          "full_src": "/images/乾隆白菜-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：乾隆白菜",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   },
   {
     "id": "正宗大盘",
@@ -6064,6 +12742,112 @@
       "家常做法",
       "下饭"
     ],
-    "search_result_count": 0
+    "search_result_count": 0,
+    "cuisine": "家常菜",
+    "cooking_method": "其他",
+    "flavor": "原味",
+    "pwa_manifest": {
+      "name": "正宗大盘鸡",
+      "short_name": "正宗大盘鸡",
+      "description": "正宗大盘鸡，家常做法，下饭。",
+      "icons": [
+        {
+          "src": "/icons/icon-正宗大盘-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/icons/icon-正宗大盘-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "start_url": "/recipe/正宗大盘",
+      "display": "standalone",
+      "orientation": "portrait",
+      "theme_color": "#2d5a3f",
+      "background_color": "#ffffff"
+    },
+    "service_worker": {
+      "cache_name": "dinner-cache-正宗大盘",
+      "version": "1.0.0",
+      "routes": [
+        {
+          "url_pattern": "/recipe/正宗大盘",
+          "strategy": "stale-while-revalidate"
+        },
+        {
+          "url_pattern": "/api/menus",
+          "strategy": "network-first"
+        }
+      ]
+    },
+    "lazy_loading": {
+      "images": [
+        {
+          "src": "/images/正宗大盘-thumb.jpg",
+          "full_src": "/images/正宗大盘-full.jpg",
+          "width": 300,
+          "height": 200,
+          "loading": "lazy"
+        }
+      ],
+      "threshold": 100
+    },
+    "virtual_scroll": {
+      "enabled": true,
+      "item_height": 120,
+      "buffer": 5,
+      "container_selector": ".list",
+      "item_selector": ".card"
+    },
+    "api_cache": {
+      "enabled": true,
+      "ttl": 3600,
+      "storage": "localStorage",
+      "key_prefix": "dinner-api-",
+      "endpoints": [
+        {
+          "url": "/api/menus",
+          "method": "GET",
+          "cache_key": "menus"
+        },
+        {
+          "url": "/api/health",
+          "method": "GET",
+          "cache_key": "health"
+        }
+      ]
+    },
+    "aria_labels": {
+      "card": "菜谱：正宗大盘鸡",
+      "favorite_btn": "收藏此菜谱",
+      "share_btn": "分享此菜谱",
+      "rating": "评分：0 星",
+      "nutrition": "营养信息：0 卡路里"
+    },
+    "keyboard_navigation": {
+      "enabled": true,
+      "focusable_elements": [
+        ".card",
+        ".favorite-btn",
+        ".share-btn",
+        ".rating-stars"
+      ],
+      "tab_index": 0,
+      "enter_key_action": "open_recipe",
+      "escape_key_action": "close_modal"
+    },
+    "high_contrast_mode": {
+      "enabled": false,
+      "colors": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "accent": "#ffff00",
+        "border": "#ffffff"
+      },
+      "font_size": "18px",
+      "line_height": "1.6"
+    }
   }
 ]
