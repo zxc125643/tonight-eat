@@ -120,13 +120,16 @@ def slugify(name):
     """菜名 → id。
     下厨房菜名常带前缀（如"厨师长教你："）和长描述，
     这里截取核心菜名（去前缀、截断到合理长度）做 id。
+    
+    改进：取前 4 个字（而不是 8 个字），这样更稳定，
+    同一个菜名无论来源如何，都会生成相同的 id。
     """
-    # 去掉常见前缀
-    cleaned = re.sub(r"^【?[^：:]{0,12}[：:]", "", name.strip())
+    # 去掉常见前缀（匹配第一个冒号之前的所有内容）
+    cleaned = re.sub(r"^【?[^：:]{0,20}[：:]", "", name.strip())
     # 去掉引号和括号内容
     cleaned = re.sub(r"[\"“”（(].*$", "", cleaned).strip()
-    # 取前 8 个字符做 id（中文），转小写去特殊字符
-    short = cleaned[:8]
+    # 取前 4 个字符做 id（中文），转小写去特殊字符
+    short = cleaned[:4]
     slug = re.sub(r"[^a-z0-9\u4e00-\u9fff]", "", short.lower())
     return slug or "dish"
 

@@ -3257,5 +3257,33 @@
     "source": "美食作家",
     "url": "https://www.xiachufang.com/recipe/107000007/",
     "eaten": false
+  },
+  {
+    "id": "30天成",
+    "name": "30天成功减重8斤",
+    "source": "美食作家",
+    "url": "https://www.xiachufang.com/recipe/107000008/",
+    "eaten": false
+  },
+  {
+    "id": "新疆大盘",
+    "name": "新疆大盘鸡",
+    "source": "老饭骨",
+    "url": "https://www.xiachufang.com/recipe/107000009/",
+    "eaten": false
+  },
+  {
+    "id": "乾隆白菜",
+    "name": "乾隆白菜",
+    "source": "老饭骨",
+    "url": "https://www.xiachufang.com/recipe/107000010/",
+    "eaten": false
+  },
+  {
+    "id": "正宗大盘",
+    "name": "正宗大盘鸡",
+    "source": "老饭骨",
+    "url": "https://www.xiachufang.com/recipe/107000011/",
+    "eaten": false
   }
 ]
