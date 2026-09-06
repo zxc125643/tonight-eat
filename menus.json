@@ -65,7 +65,35 @@
     "eaten": true,
     "name": "清蒸鲈鱼",
     "source": "家常菜谱",
-    "url": "https://www.xiachufang.com/recipe/luyu/"
+    "url": "https://www.xiachufang.com/recipe/luyu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "清蒸鲈鱼 · 豆角炒肉 · 蒜蓉油麦菜",
+      "short_name": "清蒸鲈鱼 · 豆角炒",
+      "description": "热天最合适。鱼鲜、豆角下饭，油麦菜解腻。",
+      "icons": [],
+      "start_url": "/recipe/luyu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "清蒸鲈鱼 · 豆角炒肉 · 蒜蓉油麦菜",
+      "text": "热天最合适。鱼鲜、豆角下饭，油麦菜解腻。",
+      "url": "https://www.xiachufang.com/recipe/luyu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "niunan",
@@ -127,7 +155,35 @@
     "name": "番茄牛腩",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/niunan/"
+    "url": "https://www.xiachufang.com/recipe/niunan/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "番茄牛腩 · 蒜蓉西兰花 · 拍黄瓜",
+      "short_name": "番茄牛腩 · 蒜蓉西",
+      "description": "汤汁拌饭很香。西兰花和黄瓜把油切掉。",
+      "icons": [],
+      "start_url": "/recipe/niunan",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "番茄牛腩 · 蒜蓉西兰花 · 拍黄瓜",
+      "text": "汤汁拌饭很香。西兰花和黄瓜把油切掉。",
+      "url": "https://www.xiachufang.com/recipe/niunan/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "paigu",
@@ -187,7 +243,35 @@
     "name": "红烧排骨",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/paigu/"
+    "url": "https://www.xiachufang.com/recipe/paigu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "红烧排骨 · 上汤娃娃菜 · 凉拌木耳",
+      "short_name": "红烧排骨 · 上汤娃",
+      "description": "周末想吃得像样一点，排骨是主角。",
+      "icons": [],
+      "start_url": "/recipe/paigu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "红烧排骨 · 上汤娃娃菜 · 凉拌木耳",
+      "text": "周末想吃得像样一点，排骨是主角。",
+      "url": "https://www.xiachufang.com/recipe/paigu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "gongbao",
@@ -250,7 +334,35 @@
     "name": "宫保鸡丁",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/gongbao/"
+    "url": "https://www.xiachufang.com/recipe/gongbao/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "宫保鸡丁 · 清炒时蔬 · 番茄蛋汤",
+      "short_name": "宫保鸡丁 · 清炒时",
+      "description": "半小时能上桌，鸡丁香辣，汤开胃。",
+      "icons": [],
+      "start_url": "/recipe/gongbao",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "宫保鸡丁 · 清炒时蔬 · 番茄蛋汤",
+      "text": "半小时能上桌，鸡丁香辣，汤开胃。",
+      "url": "https://www.xiachufang.com/recipe/gongbao/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "yuxiang",
@@ -313,7 +425,35 @@
     "name": "鱼香茄子",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/yuxiang/"
+    "url": "https://www.xiachufang.com/recipe/yuxiang/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "鱼香茄子 · 青椒肉丝 · 蒜蓉生菜",
+      "short_name": "鱼香茄子 · 青椒肉",
+      "description": "茄子和肉丝都很下饭，生菜清口。",
+      "icons": [],
+      "start_url": "/recipe/yuxiang",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "鱼香茄子 · 青椒肉丝 · 蒜蓉生菜",
+      "text": "茄子和肉丝都很下饭，生菜清口。",
+      "url": "https://www.xiachufang.com/recipe/yuxiang/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "tangcu",
@@ -373,7 +513,35 @@
     "name": "糖醋里脊",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/tangcu/"
+    "url": "https://www.xiachufang.com/recipe/tangcu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "糖醋里脊 · 干煸四季豆 · 紫菜蛋花汤",
+      "short_name": "糖醋里脊 · 干煸四",
+      "description": "酸甜解馋，四季豆很香，汤很清。",
+      "icons": [],
+      "start_url": "/recipe/tangcu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "糖醋里脊 · 干煸四季豆 · 紫菜蛋花汤",
+      "text": "酸甜解馋，四季豆很香，汤很清。",
+      "url": "https://www.xiachufang.com/recipe/tangcu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "huaji",
@@ -435,7 +603,35 @@
     "name": "香菇滑鸡",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/huaji/"
+    "url": "https://www.xiachufang.com/recipe/huaji/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "香菇滑鸡 · 蒜蓉空心菜 · 凉拌豆腐",
+      "short_name": "香菇滑鸡 · 蒜蓉空",
+      "description": "少油、好消化，夏天晚上很舒服。",
+      "icons": [],
+      "start_url": "/recipe/huaji",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "香菇滑鸡 · 蒜蓉空心菜 · 凉拌豆腐",
+      "text": "少油、好消化，夏天晚上很舒服。",
+      "url": "https://www.xiachufang.com/recipe/huaji/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "feiniu",
@@ -496,7 +692,35 @@
     "name": "酸汤肥牛",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/feiniu/"
+    "url": "https://www.xiachufang.com/recipe/feiniu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "酸汤肥牛 · 手撕包菜 · 皮蛋豆腐",
+      "short_name": "酸汤肥牛 · 手撕包",
+      "description": "最快的一套。酸香开胃，不怎么油。",
+      "icons": [],
+      "start_url": "/recipe/feiniu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "酸汤肥牛 · 手撕包菜 · 皮蛋豆腐",
+      "text": "最快的一套。酸香开胃，不怎么油。",
+      "url": "https://www.xiachufang.com/recipe/feiniu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "hubei",
@@ -560,7 +784,35 @@
     "name": "湖北红烧肉",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/hubei/"
+    "url": "https://www.xiachufang.com/recipe/hubei/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "湖北红烧肉 · 清炒时蔬 · 番茄蛋汤",
+      "short_name": "湖北红烧肉 · 清炒",
+      "description": "湖北家常红烧肉，肥而不腻，配时蔬和蛋汤很均衡。",
+      "icons": [],
+      "start_url": "/recipe/hubei",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "湖北红烧肉 · 清炒时蔬 · 番茄蛋汤",
+      "text": "湖北家常红烧肉，肥而不腻，配时蔬和蛋汤很均衡。",
+      "url": "https://www.xiachufang.com/recipe/hubei/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "maoxue",
@@ -626,7 +878,35 @@
     "name": "毛血旺",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/maoxue/"
+    "url": "https://www.xiachufang.com/recipe/maoxue/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "毛血旺 · 蒜蓉西兰花 · 凉拌木耳",
+      "short_name": "毛血旺 · 蒜蓉西兰",
+      "description": "四川毛血旺麻辣过瘾，西兰花清爽解腻。",
+      "icons": [],
+      "start_url": "/recipe/maoxue",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "毛血旺 · 蒜蓉西兰花 · 凉拌木耳",
+      "text": "四川毛血旺麻辣过瘾，西兰花清爽解腻。",
+      "url": "https://www.xiachufang.com/recipe/maoxue/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "yibing",
@@ -696,7 +976,35 @@
     "name": "徽州一品锅",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/yibing/"
+    "url": "https://www.xiachufang.com/recipe/yibing/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "徽州一品锅 · 清炒时蔬 · 番茄蛋汤",
+      "short_name": "徽州一品锅 · 清炒",
+      "description": "徽州名菜，一锅炖出满满烟火气，配时蔬和蛋汤很均衡。",
+      "icons": [],
+      "start_url": "/recipe/yibing",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "徽州一品锅 · 清炒时蔬 · 番茄蛋汤",
+      "text": "徽州名菜，一锅炖出满满烟火气，配时蔬和蛋汤很均衡。",
+      "url": "https://www.xiachufang.com/recipe/yibing/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "jijiu",
@@ -764,7 +1072,35 @@
     "name": "黄焖鸡",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/jijiu/"
+    "url": "https://www.xiachufang.com/recipe/jijiu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "黄焖鸡 · 蒜蓉油麦菜 · 紫菜蛋花汤",
+      "short_name": "黄焖鸡 · 蒜蓉油麦",
+      "description": "经典下饭菜，汤汁拌饭特别香，配青菜和蛋汤很均衡。",
+      "icons": [],
+      "start_url": "/recipe/jijiu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "黄焖鸡 · 蒜蓉油麦菜 · 紫菜蛋花汤",
+      "text": "经典下饭菜，汤汁拌饭特别香，配青菜和蛋汤很均衡。",
+      "url": "https://www.xiachufang.com/recipe/jijiu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "laomian",
@@ -832,7 +1168,35 @@
     "name": "梅菜扣肉",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/laomian/"
+    "url": "https://www.xiachufang.com/recipe/laomian/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "梅菜扣肉 · 蒜蓉生菜 · 冬瓜汤",
+      "short_name": "梅菜扣肉 · 蒜蓉生",
+      "description": "经典硬菜，肥而不腻，配清爽蔬菜和冬瓜汤很解腻。",
+      "icons": [],
+      "start_url": "/recipe/laomian",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "梅菜扣肉 · 蒜蓉生菜 · 冬瓜汤",
+      "text": "经典硬菜，肥而不腻，配清爽蔬菜和冬瓜汤很解腻。",
+      "url": "https://www.xiachufang.com/recipe/laomian/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "huiguo",
@@ -908,7 +1272,35 @@
     "name": "回锅肉",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/huiguo/"
+    "url": "https://www.xiachufang.com/recipe/huiguo/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "回锅肉 · 蒜蓉西兰花 · 紫菜蛋花汤",
+      "short_name": "回锅肉 · 蒜蓉西兰",
+      "description": "王刚版回锅肉，肉片灯盏窝配蒜苗，酱香下饭，西兰花解腻。",
+      "icons": [],
+      "start_url": "/recipe/huiguo",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "回锅肉 · 蒜蓉西兰花 · 紫菜蛋花汤",
+      "text": "王刚版回锅肉，肉片灯盏窝配蒜苗，酱香下饭，西兰花解腻。",
+      "url": "https://www.xiachufang.com/recipe/huiguo/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "shuizhu",
@@ -979,7 +1371,35 @@
     "name": "水煮肉片",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/shuizhu/"
+    "url": "https://www.xiachufang.com/recipe/shuizhu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "水煮肉片 · 清炒时蔬 · 番茄蛋汤",
+      "short_name": "水煮肉片 · 清炒时",
+      "description": "王刚版水煮肉片，麻辣鲜香，肉片滑嫩，配时蔬和蛋汤很均衡。",
+      "icons": [],
+      "start_url": "/recipe/shuizhu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "水煮肉片 · 清炒时蔬 · 番茄蛋汤",
+      "text": "王刚版水煮肉片，麻辣鲜香，肉片滑嫩，配时蔬和蛋汤很均衡。",
+      "url": "https://www.xiachufang.com/recipe/shuizhu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "congbao",
@@ -1046,7 +1466,35 @@
     "name": "葱爆牛肉",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/congbao/"
+    "url": "https://www.xiachufang.com/recipe/congbao/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "葱爆牛肉 · 蒜蓉油麦菜 · 冬瓜汤",
+      "short_name": "葱爆牛肉 · 蒜蓉油",
+      "description": "厨师长版葱爆牛肉，葱香浓郁，牛肉嫩滑，配青菜和冬瓜汤很清爽。",
+      "icons": [],
+      "start_url": "/recipe/congbao",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "葱爆牛肉 · 蒜蓉油麦菜 · 冬瓜汤",
+      "text": "厨师长版葱爆牛肉，葱香浓郁，牛肉嫩滑，配青菜和冬瓜汤很清爽。",
+      "url": "https://www.xiachufang.com/recipe/congbao/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "ganguo",
@@ -1116,7 +1564,35 @@
     "name": "干锅鸡",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/ganguo/"
+    "url": "https://www.xiachufang.com/recipe/ganguo/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "干锅鸡 · 蒜蓉空心菜 · 紫菜蛋花汤",
+      "short_name": "干锅鸡 · 蒜蓉空心",
+      "description": "厨师长版干锅鸡，肉香四溢，外焦里嫩，配青菜和蛋汤很解腻。",
+      "icons": [],
+      "start_url": "/recipe/ganguo",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "干锅鸡 · 蒜蓉空心菜 · 紫菜蛋花汤",
+      "text": "厨师长版干锅鸡，肉香四溢，外焦里嫩，配青菜和蛋汤很解腻。",
+      "url": "https://www.xiachufang.com/recipe/ganguo/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liurou",
@@ -1183,7 +1659,35 @@
     "name": "溜肉段",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liurou/"
+    "url": "https://www.xiachufang.com/recipe/liurou/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "溜肉段 · 清炒时蔬 · 番茄蛋汤",
+      "short_name": "溜肉段 · 清炒时蔬",
+      "description": "东北名菜溜肉段，外酥里嫩，咸鲜口，配时蔬和蛋汤很均衡。",
+      "icons": [],
+      "start_url": "/recipe/liurou",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "溜肉段 · 清炒时蔬 · 番茄蛋汤",
+      "text": "东北名菜溜肉段，外酥里嫩，咸鲜口，配时蔬和蛋汤很均衡。",
+      "url": "https://www.xiachufang.com/recipe/liurou/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "guobaorou",
@@ -1252,7 +1756,35 @@
     "name": "锅包肉",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/guobaorou/"
+    "url": "https://www.xiachufang.com/recipe/guobaorou/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "锅包肉 · 蒜蓉生菜 · 冬瓜汤",
+      "short_name": "锅包肉 · 蒜蓉生菜",
+      "description": "东北锅包肉，色泽金黄，酸甜口，外酥里嫩，配青菜和冬瓜汤很解腻。",
+      "icons": [],
+      "start_url": "/recipe/guobaorou",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "锅包肉 · 蒜蓉生菜 · 冬瓜汤",
+      "text": "东北锅包肉，色泽金黄，酸甜口，外酥里嫩，配青菜和冬瓜汤很解腻。",
+      "url": "https://www.xiachufang.com/recipe/guobaorou/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "qiangchaotudousi",
@@ -1325,7 +1857,35 @@
     "name": "炝炒土豆丝",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/qiangchaotudousi/"
+    "url": "https://www.xiachufang.com/recipe/qiangchaotudousi/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "炝炒土豆丝 · 凉拌海带丝 · 冬瓜汤",
+      "short_name": "炝炒土豆丝 · 凉拌",
+      "description": "炝炒土豆丝是主角，配凉拌海带丝和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/qiangchaotudousi",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "炝炒土豆丝 · 凉拌海带丝 · 冬瓜汤",
+      "text": "炝炒土豆丝是主角，配凉拌海带丝和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/qiangchaotudousi/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "suansulabaicai",
@@ -1396,7 +1956,35 @@
     "name": "酸辣大白菜",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/suansulabaicai/"
+    "url": "https://www.xiachufang.com/recipe/suansulabaicai/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "酸辣大白菜 · 凉拌腐竹 · 番茄蛋汤",
+      "short_name": "酸辣大白菜 · 凉拌",
+      "description": "酸辣大白菜是主角，配凉拌腐竹和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/suansulabaicai",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "酸辣大白菜 · 凉拌腐竹 · 番茄蛋汤",
+      "text": "酸辣大白菜是主角，配凉拌腐竹和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/suansulabaicai/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "ha youshengcai",
@@ -1463,7 +2051,35 @@
     "name": "ha youshengcai",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/ha youshengcai/"
+    "url": "https://www.xiachufang.com/recipe/ha youshengcai/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "蚝油生菜 · 凉拌藕片 · 紫菜蛋花汤",
+      "short_name": "蚝油生菜 · 凉拌藕",
+      "description": "蚝油生菜是主角，配凉拌藕片和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/ha youshengcai",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "蚝油生菜 · 凉拌藕片 · 紫菜蛋花汤",
+      "text": "蚝油生菜是主角，配凉拌藕片和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/ha youshengcai/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "jiaochongtou",
@@ -1536,7 +2152,35 @@
     "name": "红烧狮子头",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/jiaochongtou/"
+    "url": "https://www.xiachufang.com/recipe/jiaochongtou/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "红烧狮子头 · 凉拌土豆丝 · 冬瓜排骨汤",
+      "short_name": "红烧狮子头 · 凉拌",
+      "description": "红烧狮子头是主角，配凉拌土豆丝和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/jiaochongtou",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "红烧狮子头 · 凉拌土豆丝 · 冬瓜排骨汤",
+      "text": "红烧狮子头是主角，配凉拌土豆丝和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/jiaochongtou/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "shuangpeng",
@@ -1608,7 +2252,35 @@
     "name": "蒜蓉粉丝蒸扇贝",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/shuangpeng/"
+    "url": "https://www.xiachufang.com/recipe/shuangpeng/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "蒜蓉粉丝蒸扇贝 · 凉拌菠菜 · 冬瓜汤",
+      "short_name": "蒜蓉粉丝蒸扇贝 · ",
+      "description": "蒜蓉粉丝蒸扇贝是主角，配凉拌菠菜和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/shuangpeng",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "蒜蓉粉丝蒸扇贝 · 凉拌菠菜 · 冬瓜汤",
+      "text": "蒜蓉粉丝蒸扇贝是主角，配凉拌菠菜和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/shuangpeng/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "shuangpeng2",
@@ -1681,7 +2353,35 @@
     "name": "shuangpeng2",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/shuangpeng2/"
+    "url": "https://www.xiachufang.com/recipe/shuangpeng2/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "蒜蓉粉丝蒸虾 · 凉拌芹菜 · 番茄蛋汤",
+      "short_name": "蒜蓉粉丝蒸虾 · 凉",
+      "description": "蒜蓉粉丝蒸虾是主角，配凉拌芹菜和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/shuangpeng2",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "蒜蓉粉丝蒸虾 · 凉拌芹菜 · 番茄蛋汤",
+      "text": "蒜蓉粉丝蒸虾是主角，配凉拌芹菜和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/shuangpeng2/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "kelechiji",
@@ -1748,7 +2448,35 @@
     "name": "可乐鸡翅",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/kelechiji/"
+    "url": "https://www.xiachufang.com/recipe/kelechiji/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "可乐鸡翅 · 凉拌莴笋 · 紫菜蛋花汤",
+      "short_name": "可乐鸡翅 · 凉拌莴",
+      "description": "可乐鸡翅是主角，配凉拌莴笋和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/kelechiji",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "可乐鸡翅 · 凉拌莴笋 · 紫菜蛋花汤",
+      "text": "可乐鸡翅是主角，配凉拌莴笋和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/kelechiji/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "hongshaorou",
@@ -1821,7 +2549,35 @@
     "name": "红烧肉",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/hongshaorou/"
+    "url": "https://www.xiachufang.com/recipe/hongshaorou/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "红烧肉 · 凉拌秋葵 · 冬瓜排骨汤",
+      "short_name": "红烧肉 · 凉拌秋葵",
+      "description": "红烧肉是主角，配凉拌秋葵和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/hongshaorou",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "红烧肉 · 凉拌秋葵 · 冬瓜排骨汤",
+      "text": "红烧肉是主角，配凉拌秋葵和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/hongshaorou/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "tangcupaigu",
@@ -1892,7 +2648,35 @@
     "name": "糖醋排骨",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/tangcupaigu/"
+    "url": "https://www.xiachufang.com/recipe/tangcupaigu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "糖醋排骨 · 凉拌芦笋 · 冬瓜汤",
+      "short_name": "糖醋排骨 · 凉拌芦",
+      "description": "糖醋排骨是主角，配凉拌芦笋和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/tangcupaigu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "糖醋排骨 · 凉拌芦笋 · 冬瓜汤",
+      "text": "糖醋排骨是主角，配凉拌芦笋和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/tangcupaigu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "mapodofu",
@@ -1963,7 +2747,35 @@
     "name": "麻婆豆腐",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/mapodofu/"
+    "url": "https://www.xiachufang.com/recipe/mapodofu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "麻婆豆腐 · 凉拌苦瓜 · 番茄蛋汤",
+      "short_name": "麻婆豆腐 · 凉拌苦",
+      "description": "麻婆豆腐是主角，配凉拌苦瓜和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/mapodofu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "麻婆豆腐 · 凉拌苦瓜 · 番茄蛋汤",
+      "text": "麻婆豆腐是主角，配凉拌苦瓜和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/mapodofu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "yuxiangrous",
@@ -2033,7 +2845,35 @@
     "name": "鱼香肉丝",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/yuxiangrous/"
+    "url": "https://www.xiachufang.com/recipe/yuxiangrous/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "鱼香肉丝 · 凉拌丝瓜 · 紫菜蛋花汤",
+      "short_name": "鱼香肉丝 · 凉拌丝",
+      "description": "鱼香肉丝是主角，配凉拌丝瓜和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/yuxiangrous",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "鱼香肉丝 · 凉拌丝瓜 · 紫菜蛋花汤",
+      "text": "鱼香肉丝是主角，配凉拌丝瓜和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/yuxiangrous/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "qingjiaorous",
@@ -2107,7 +2947,35 @@
     "name": "青椒肉丝",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/qingjiaorous/"
+    "url": "https://www.xiachufang.com/recipe/qingjiaorous/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "青椒肉丝 · 豆角炒肉 · 冬瓜排骨汤",
+      "short_name": "青椒肉丝 · 豆角炒",
+      "description": "青椒肉丝是主角，配豆角炒肉和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/qingjiaorous",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "青椒肉丝 · 豆角炒肉 · 冬瓜排骨汤",
+      "text": "青椒肉丝是主角，配豆角炒肉和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/qingjiaorous/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "xihongchidan",
@@ -2175,7 +3043,35 @@
     "name": "西红柿炒蛋",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/xihongchidan/"
+    "url": "https://www.xiachufang.com/recipe/xihongchidan/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "西红柿炒蛋 · 蒜蓉西兰花 · 冬瓜汤",
+      "short_name": "西红柿炒蛋 · 蒜蓉",
+      "description": "西红柿炒蛋是主角，配蒜蓉西兰花和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/xihongchidan",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "西红柿炒蛋 · 蒜蓉西兰花 · 冬瓜汤",
+      "text": "西红柿炒蛋是主角，配蒜蓉西兰花和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/xihongchidan/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "disanxian",
@@ -2247,7 +3143,35 @@
     "name": "地三鲜",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/disanxian/"
+    "url": "https://www.xiachufang.com/recipe/disanxian/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "地三鲜 · 上汤娃娃菜 · 番茄蛋汤",
+      "short_name": "地三鲜 · 上汤娃娃",
+      "description": "地三鲜是主角，配上汤娃娃菜和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/disanxian",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "地三鲜 · 上汤娃娃菜 · 番茄蛋汤",
+      "text": "地三鲜是主角，配上汤娃娃菜和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/disanxian/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "ganbiandoujiao",
@@ -2313,7 +3237,35 @@
     "name": "干煸豆角",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/ganbiandoujiao/"
+    "url": "https://www.xiachufang.com/recipe/ganbiandoujiao/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "干煸豆角 · 清炒时蔬 · 紫菜蛋花汤",
+      "short_name": "干煸豆角 · 清炒时",
+      "description": "干煸豆角是主角，配清炒时蔬和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/ganbiandoujiao",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "干煸豆角 · 清炒时蔬 · 紫菜蛋花汤",
+      "text": "干煸豆角是主角，配清炒时蔬和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/ganbiandoujiao/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "suanrongxihua",
@@ -2381,7 +3333,35 @@
     "name": "蒜蓉西兰花",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/suanrongxihua/"
+    "url": "https://www.xiachufang.com/recipe/suanrongxihua/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "蒜蓉西兰花 · 鱼香茄子 · 冬瓜排骨汤",
+      "short_name": "蒜蓉西兰花 · 鱼香",
+      "description": "蒜蓉西兰花是主角，配鱼香茄子和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/suanrongxihua",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "蒜蓉西兰花 · 鱼香茄子 · 冬瓜排骨汤",
+      "text": "蒜蓉西兰花是主角，配鱼香茄子和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/suanrongxihua/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "paihuanggua",
@@ -2448,7 +3428,35 @@
     "name": "拍黄瓜",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/paihuanggua/"
+    "url": "https://www.xiachufang.com/recipe/paihuanggua/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "拍黄瓜 · 青椒肉丝 · 冬瓜汤",
+      "short_name": "拍黄瓜 · 青椒肉丝",
+      "description": "拍黄瓜是主角，配青椒肉丝和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/paihuanggua",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "拍黄瓜 · 青椒肉丝 · 冬瓜汤",
+      "text": "拍黄瓜是主角，配青椒肉丝和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/paihuanggua/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbanmu'er",
@@ -2514,7 +3522,35 @@
     "name": "liangbanmu'er",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbanmu'er/"
+    "url": "https://www.xiachufang.com/recipe/liangbanmu'er/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌木耳 · 干煸四季豆 · 番茄蛋汤",
+      "short_name": "凉拌木耳 · 干煸四",
+      "description": "凉拌木耳是主角，配干煸四季豆和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbanmu'er",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌木耳 · 干煸四季豆 · 番茄蛋汤",
+      "text": "凉拌木耳是主角，配干煸四季豆和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbanmu'er/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbandoufu",
@@ -2572,7 +3608,35 @@
     "name": "凉拌豆腐",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbandoufu/"
+    "url": "https://www.xiachufang.com/recipe/liangbandoufu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌豆腐 · 蒜蓉空心菜 · 紫菜蛋花汤",
+      "short_name": "凉拌豆腐 · 蒜蓉空",
+      "description": "凉拌豆腐是主角，配蒜蓉空心菜和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbandoufu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌豆腐 · 蒜蓉空心菜 · 紫菜蛋花汤",
+      "text": "凉拌豆腐是主角，配蒜蓉空心菜和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbandoufu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "pidan doufu",
@@ -2638,7 +3702,35 @@
     "name": "pidan doufu",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/pidan doufu/"
+    "url": "https://www.xiachufang.com/recipe/pidan doufu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "皮蛋豆腐 · 手撕包菜 · 冬瓜排骨汤",
+      "short_name": "皮蛋豆腐 · 手撕包",
+      "description": "皮蛋豆腐是主角，配手撕包菜和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/pidan doufu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "皮蛋豆腐 · 手撕包菜 · 冬瓜排骨汤",
+      "text": "皮蛋豆腐是主角，配手撕包菜和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/pidan doufu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbanhaidai",
@@ -2703,7 +3795,35 @@
     "name": "凉拌海带丝",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbanhaidai/"
+    "url": "https://www.xiachufang.com/recipe/liangbanhaidai/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌海带丝 · 蒜蓉油麦菜 · 冬瓜汤",
+      "short_name": "凉拌海带丝 · 蒜蓉",
+      "description": "凉拌海带丝是主角，配蒜蓉油麦菜和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbanhaidai",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌海带丝 · 蒜蓉油麦菜 · 冬瓜汤",
+      "text": "凉拌海带丝是主角，配蒜蓉油麦菜和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbanhaidai/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbanfuzhu",
@@ -2770,7 +3890,35 @@
     "name": "凉拌腐竹",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbanfuzhu/"
+    "url": "https://www.xiachufang.com/recipe/liangbanfuzhu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌腐竹 · 蒜蓉生菜 · 番茄蛋汤",
+      "short_name": "凉拌腐竹 · 蒜蓉生",
+      "description": "凉拌腐竹是主角，配蒜蓉生菜和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbanfuzhu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌腐竹 · 蒜蓉生菜 · 番茄蛋汤",
+      "text": "凉拌腐竹是主角，配蒜蓉生菜和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbanfuzhu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbannian",
@@ -2839,7 +3987,35 @@
     "name": "凉拌藕片",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbannian/"
+    "url": "https://www.xiachufang.com/recipe/liangbannian/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌藕片 · 炝炒土豆丝 · 紫菜蛋花汤",
+      "short_name": "凉拌藕片 · 炝炒土",
+      "description": "凉拌藕片是主角，配炝炒土豆丝和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbannian",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌藕片 · 炝炒土豆丝 · 紫菜蛋花汤",
+      "text": "凉拌藕片是主角，配炝炒土豆丝和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbannian/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbantudou",
@@ -2911,7 +4087,35 @@
     "name": "凉拌土豆丝",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbantudou/"
+    "url": "https://www.xiachufang.com/recipe/liangbantudou/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌土豆丝 · 酸辣大白菜 · 冬瓜排骨汤",
+      "short_name": "凉拌土豆丝 · 酸辣",
+      "description": "凉拌土豆丝是主角，配酸辣大白菜和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbantudou",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌土豆丝 · 酸辣大白菜 · 冬瓜排骨汤",
+      "text": "凉拌土豆丝是主角，配酸辣大白菜和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbantudou/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbanbo",
@@ -2982,7 +4186,35 @@
     "name": "凉拌菠菜",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbanbo/"
+    "url": "https://www.xiachufang.com/recipe/liangbanbo/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌菠菜 · 蚝油生菜 · 冬瓜汤",
+      "short_name": "凉拌菠菜 · 蚝油生",
+      "description": "凉拌菠菜是主角，配蚝油生菜和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbanbo",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌菠菜 · 蚝油生菜 · 冬瓜汤",
+      "text": "凉拌菠菜是主角，配蚝油生菜和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbanbo/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbancel",
@@ -3053,7 +4285,35 @@
     "name": "凉拌芹菜",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbancel/"
+    "url": "https://www.xiachufang.com/recipe/liangbancel/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌芹菜 · 麻婆豆腐 · 番茄蛋汤",
+      "short_name": "凉拌芹菜 · 麻婆豆",
+      "description": "凉拌芹菜是主角，配麻婆豆腐和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbancel",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌芹菜 · 麻婆豆腐 · 番茄蛋汤",
+      "text": "凉拌芹菜是主角，配麻婆豆腐和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbancel/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbanlu",
@@ -3122,7 +4382,35 @@
     "name": "凉拌莴笋",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbanlu/"
+    "url": "https://www.xiachufang.com/recipe/liangbanlu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌莴笋 · 干煸豆角 · 紫菜蛋花汤",
+      "short_name": "凉拌莴笋 · 干煸豆",
+      "description": "凉拌莴笋是主角，配干煸豆角和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbanlu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌莴笋 · 干煸豆角 · 紫菜蛋花汤",
+      "text": "凉拌莴笋是主角，配干煸豆角和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbanlu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbanqiu",
@@ -3190,7 +4478,35 @@
     "name": "凉拌秋葵",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbanqiu/"
+    "url": "https://www.xiachufang.com/recipe/liangbanqiu/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌秋葵 · 凉拌木耳 · 冬瓜排骨汤",
+      "short_name": "凉拌秋葵 · 凉拌木",
+      "description": "凉拌秋葵是主角，配凉拌木耳和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbanqiu",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌秋葵 · 凉拌木耳 · 冬瓜排骨汤",
+      "text": "凉拌秋葵是主角，配凉拌木耳和冬瓜排骨汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbanqiu/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbanlu2",
@@ -3255,7 +4571,35 @@
     "name": "liangbanlu2",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbanlu2/"
+    "url": "https://www.xiachufang.com/recipe/liangbanlu2/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌芦笋 · 凉拌豆腐 · 冬瓜汤",
+      "short_name": "凉拌芦笋 · 凉拌豆",
+      "description": "凉拌芦笋是主角，配凉拌豆腐和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbanlu2",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌芦笋 · 凉拌豆腐 · 冬瓜汤",
+      "text": "凉拌芦笋是主角，配凉拌豆腐和冬瓜汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbanlu2/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbanku",
@@ -3323,7 +4667,35 @@
     "name": "凉拌苦瓜",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbanku/"
+    "url": "https://www.xiachufang.com/recipe/liangbanku/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌苦瓜 · 皮蛋豆腐 · 番茄蛋汤",
+      "short_name": "凉拌苦瓜 · 皮蛋豆",
+      "description": "凉拌苦瓜是主角，配皮蛋豆腐和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbanku",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌苦瓜 · 皮蛋豆腐 · 番茄蛋汤",
+      "text": "凉拌苦瓜是主角，配皮蛋豆腐和番茄蛋汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbanku/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "liangbansi",
@@ -3385,7 +4757,35 @@
     "name": "凉拌丝瓜",
     "source": "家常菜谱",
     "eaten": false,
-    "url": "https://www.xiachufang.com/recipe/liangbansi/"
+    "url": "https://www.xiachufang.com/recipe/liangbansi/",
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌丝瓜 · 凉拌海带丝 · 紫菜蛋花汤",
+      "short_name": "凉拌丝瓜 · 凉拌海",
+      "description": "凉拌丝瓜是主角，配凉拌海带丝和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "icons": [],
+      "start_url": "/recipe/liangbansi",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌丝瓜 · 凉拌海带丝 · 紫菜蛋花汤",
+      "text": "凉拌丝瓜是主角，配凉拌海带丝和紫菜蛋花汤，一荤一素一汤，均衡下饭。",
+      "url": "https://www.xiachufang.com/recipe/liangbansi/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "溜炒腰花",
@@ -3400,7 +4800,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "溜炒腰花",
+      "short_name": "溜炒腰花",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/溜炒腰花",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "溜炒腰花",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/106885953/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "小煎兔",
@@ -3415,7 +4843,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "小煎兔",
+      "short_name": "小煎兔",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/小煎兔",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "小煎兔",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/106522378/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "开锅养锅",
@@ -3430,7 +4886,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "开锅养锅",
+      "short_name": "开锅养锅",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/开锅养锅",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "开锅养锅",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/107000001/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "黄焖鸡",
@@ -3445,7 +4929,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "黄焖鸡",
+      "short_name": "黄焖鸡",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/黄焖鸡",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "黄焖鸡",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/107000002/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "孜然羊肉",
@@ -3460,7 +4972,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "孜然羊肉",
+      "short_name": "孜然羊肉",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/孜然羊肉",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "孜然羊肉",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/107000003/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "香蕉麦片",
@@ -3475,7 +5015,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "香蕉麦片",
+      "short_name": "香蕉麦片",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/香蕉麦片",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "香蕉麦片",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/107000004/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "煎鹅蛋",
@@ -3490,7 +5058,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "煎鹅蛋",
+      "short_name": "煎鹅蛋",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/煎鹅蛋",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "煎鹅蛋",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/107000005/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "凉拌香菜",
@@ -3505,7 +5101,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "凉拌香菜",
+      "short_name": "凉拌香菜",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/凉拌香菜",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "凉拌香菜",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/107000006/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "热门家常",
@@ -3520,7 +5144,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "热门家常",
+      "short_name": "热门家常",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/热门家常",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "热门家常",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/107000007/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "减脂餐成",
@@ -3535,7 +5187,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "减脂餐成",
+      "short_name": "减脂餐成",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/减脂餐成",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "减脂餐成",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/107000007/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "30天成",
@@ -3550,7 +5230,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "30天成",
+      "short_name": "30天成",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/30天成",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "30天成",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/107000008/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "新疆大盘",
@@ -3565,7 +5273,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "新疆大盘",
+      "short_name": "新疆大盘",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/新疆大盘",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "新疆大盘",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/107000009/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "乾隆白菜",
@@ -3580,7 +5316,35 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "乾隆白菜",
+      "short_name": "乾隆白菜",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/乾隆白菜",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "乾隆白菜",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/107000010/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   },
   {
     "id": "正宗大盘",
@@ -3595,6 +5359,34 @@
         "ingredients": [],
         "steps": []
       }
-    ]
+    ],
+    "favorite": false,
+    "history": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": 0
+    },
+    "shopping_list": [],
+    "pwa": {
+      "name": "正宗大盘",
+      "short_name": "正宗大盘",
+      "description": "",
+      "icons": [],
+      "start_url": "/recipe/正宗大盘",
+      "display": "standalone"
+    },
+    "dark_mode": false,
+    "share": {
+      "title": "正宗大盘",
+      "text": "",
+      "url": "https://www.xiachufang.com/recipe/107000011/"
+    },
+    "rating": {
+      "average": 0,
+      "count": 0,
+      "reviews": []
+    }
   }
 ]
