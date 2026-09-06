@@ -122,6 +122,10 @@
     .advanced-filters select { flex: 1; padding: 8px; border: 1px solid var(--oat); border-radius: 8px; font-size: 13px; background: #fff; }
     .toolbar { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
     .toolbar .ghost { font-size: 12px; padding: 6px 10px; }
+    .advanced-filters { display: flex; gap: 8px; margin-bottom: 12px; }
+    .advanced-filters select { flex: 1; padding: 8px; border: 1px solid var(--oat); border-radius: 8px; font-size: 13px; background: #fff; }
+    .toolbar { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+    .toolbar .ghost { font-size: 12px; padding: 6px 10px; }
     .search-box {
       position: relative;
       margin-bottom: 14px;
@@ -311,6 +315,19 @@
       <button class="search-clear" id="searchClear" type="button">×</button>
     </div>
     <div class="filters" id="filters"></div>
+    <div class="advanced-filters" id="advancedFilters">
+      <select id="cuisineFilter"><option value="">菜系</option><option>川菜</option><option>粤菜</option><option>鲁菜</option><option>家常菜</option></select>
+      <select id="cookingFilter"><option value="">烹饪</option><option>炒</option><option>煮</option><option>蒸</option><option>炸</option><option>烤</option></select>
+      <select id="flavorFilter"><option value="">口味</option><option>辣</option><option>酸</option><option>甜</option><option>咸</option><option>鲜</option></select>
+    </div>
+    <div class="toolbar">
+      <button class="ghost" id="favToggle">⭐ 收藏</button>
+      <button class="ghost" id="histToggle">🕐 历史</button>
+      <button class="ghost" id="nutriToggle">🥗 营养</button>
+      <button class="ghost" id="shopToggle">🛒 购物</button>
+      <button class="ghost" id="shareBtn">📤 分享</button>
+      <button class="ghost" id="darkToggle">🌙 暗色</button>
+    </div>
     <div class="advanced-filters" id="advancedFilters">
       <select id="cuisineFilter"><option value="">菜系</option><option>川菜</option><option>粤菜</option><option>鲁菜</option><option>家常菜</option></select>
       <select id="cookingFilter"><option value="">烹饪</option><option>炒</option><option>煮</option><option>蒸</option><option>炸</option><option>烤</option></select>
