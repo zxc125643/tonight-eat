@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+fetch*.log
+
+# Backups (太大，不上传)
+backups/
+
+# OS
+.DS_Store
+Thumbs.db
