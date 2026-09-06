@@ -20,8 +20,15 @@ LOG_FILE = os.path.join(BASE_DIR, "fetch.log")
 PROXY = "http://127.0.0.1:7897"
 
 SEARCHES = [
+    # 特定厨师/美食作家
     ("王刚", "https://www.xiachufang.com/search/?keyword=%E7%8E%8B%E5%88%9A"),
     ("厨师长教你", "https://www.xiachufang.com/search/?keyword=%E5%8E%A8%E5%B8%88%E9%95%BF%E6%95%99%E4%BD%A0"),
+    ("老饭骨", "https://www.xiachufang.com/search/?keyword=%E8%80%81%E9%A4%90%E9%AA%A8"),
+    ("美食作家", "https://www.xiachufang.com/search/?keyword=%E7%BE%8E%E9%A3%9F%E4%BD%9C%E5%AE%B6"),
+    # 综合排名/热门
+    ("热门菜谱", "https://www.xiachufang.com/search/?keyword=%E7%83%AD%E9%97%A8%E8%8F%9C%E8%B0%B1"),
+    ("高分菜谱", "https://www.xiachufang.com/search/?keyword=%E9%AB%98%E5%88%86%E8%8F%9C%E8%B0%B1"),
+    ("家常菜谱", "https://www.xiachufang.com/search/?keyword=%E5%AE%B6%E5%B8%B8%E8%8F%9C%E8%B0%B1"),
 ]
 
 
@@ -129,7 +136,11 @@ def main():
     existing_ids = {m.get("id") for m in menus}
     added = 0
 
-    for label, url in SEARCHES:
+    for i, (label, url) in enumerate(SEARCHES):
+        # 每个搜索之间等 2 秒，避免限流
+        if i > 0:
+            import time
+            time.sleep(2)
         try:
             html_text = http_get(url)
         except Exception as e:
